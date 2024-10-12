@@ -30,8 +30,8 @@ export const HomeValuesData = [
     desc: `We encourage diversity and inclusiveness to ensure a vibrant learning community.`,
   },
   {
-    id: 1,
-    img: `/Images/HomeValues/1.png`,
+    id: 6,
+    img: `/Images/HomeValues/6.png`,
     name: `Professionalism`,
     desc: `We personally commit to continuous improvement and professional growth.`,
   },

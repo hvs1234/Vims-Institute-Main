@@ -1,14 +1,17 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { NavLinkData } from "../APIs/NavAPI";
-import { HomePromoteData } from "../APIs/HomePromoteAPI";
+import { HomePromoteData, HomeTipsData } from "../APIs/HomePromoteAPI";
 import { HomeValuesData } from "../APIs/HomeValuesAPI";
+import { HomeProgramData } from "../APIs/HomeProgramCardAPI";
 
 const initialState = {
   path: "/",
   isActive: false,
   navlinkdata: NavLinkData,
   homepromotedata: HomePromoteData,
+  hometipsdata: HomeTipsData,
   homevaluesdata: HomeValuesData,
+  homeprogramdata: HomeProgramData,
 };
 
 const Slice = createSlice({
@@ -24,7 +27,9 @@ const Slice = createSlice({
     setAPIData(state, action) {
       state.navlinkdata = action.payload;
       state.homepromotedata = action.payload;
+      state.hometipsdata = action.payload;
       state.homevaluesdata = action.payload;
+      state.homeprogramdata = action.payload;
     },
   },
 });

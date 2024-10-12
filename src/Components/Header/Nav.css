@@ -2,6 +2,17 @@
     display: none;
 }
 
+.sticky .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    z-index: 9999;
+    margin: 0 auto;
+}
+
 @media(max-width:1200px) {
     .header {
         padding: 3rem 0;

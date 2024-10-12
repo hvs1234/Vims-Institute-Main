@@ -6,7 +6,9 @@ const Handlers = () => {
   const dispatch = useDispatch();
   const navlinkdata = useSelector((state) => state.app.navlinkdata);
   const homepromotedata = useSelector((state) => state.app.homepromotedata);
+  const hometipsdata = useSelector((state) => state.app.hometipsdata);
   const homevaluesdata = useSelector((state) => state.app.homevaluesdata);
+  const homeprogramdata = useSelector((state) => state.app.homeprogramdata);
   const isActive = useSelector((state) => state.app.isActive);
 
   const handleOnClick = useCallback(
@@ -26,7 +28,9 @@ const Handlers = () => {
     handleOnClick,
     navlinkdata,
     homepromotedata,
+    hometipsdata,
     homevaluesdata,
+    homeprogramdata,
     isActive,
     toggleNavbar,
   };
