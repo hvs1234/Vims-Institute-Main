@@ -16,16 +16,12 @@ const HomeFuture = () => {
               Setting Up The Foundation To A Brighter Future
             </h2>
             <p className="text-[1.8rem] font-normal">
-              Set up to high international standards, Verma Institute of
-              Management Studies (VIMS) is a premier hospitality institute in
-              Uttarakhand that offers you quality hospitality education with
-              world-class infrastructure that gives your career an edge over
-              others. Affiliated to the Uttarakhand University, backed with a strong
-              international exchange program, internship, and placements in
-              leading hotel chains, VIMS uses a perfect combination of academic
-              learning, hands-on training, and professional internship to give
-              one the best foundation and internationally accepted hospitality
-              degree to get one set for a global career.
+              Welcome to our One-Year Diploma in Hotel Management. This program
+              meticulously crafted for individuals aspiring to immerse
+              themselves in the dynamic field of hospitality. Over the course of
+              one year, you will acquire an extensive understanding of hotel
+              operations, encompassing front office management, housekeeping,
+              and food and beverage service.
             </p>
             <p className="text-[1.8rem] font-normal">
               VIMS emphasizes a holistic approach to hospitality education,

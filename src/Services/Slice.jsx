@@ -3,6 +3,7 @@ import { NavLinkData } from "../APIs/NavAPI";
 import { HomePromoteData, HomeTipsData } from "../APIs/HomePromoteAPI";
 import { HomeValuesData } from "../APIs/HomeValuesAPI";
 import { HomeProgramData } from "../APIs/HomeProgramCardAPI";
+import { AboutUsBannerData } from "../APIs/TopBannerAPI";
 
 const initialState = {
   path: "/",
@@ -12,6 +13,7 @@ const initialState = {
   hometipsdata: HomeTipsData,
   homevaluesdata: HomeValuesData,
   homeprogramdata: HomeProgramData,
+  aboutusbannerdata: AboutUsBannerData,
 };
 
 const Slice = createSlice({
@@ -30,6 +32,7 @@ const Slice = createSlice({
       state.hometipsdata = action.payload;
       state.homevaluesdata = action.payload;
       state.homeprogramdata = action.payload;
+      state.aboutusbannerdata = action.payload;
     },
   },
 });

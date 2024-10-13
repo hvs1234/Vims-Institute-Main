@@ -7,8 +7,8 @@ export const NavLinkData = [
   },
   {
     id: 2,
-    name: "About Us",
-    to: "/",
+    name: "AboutUs",
+    to: "/aboutus",
     icon: "",
   },
   {
@@ -49,7 +49,7 @@ export const NavLinkData = [
   },
   {
     id: 9,
-    name: "Contact Us",
+    name: "ContactUs",
     to: "/",
     icon: "",
   },

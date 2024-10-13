@@ -2,41 +2,17 @@
 
 import { Link } from "react-router-dom";
 import Header from "../../Components/Header/Header";
-import { useEffect } from "react";
+import Handlers from "../../Services/Handlers";
 
 const Hero = () => {
-  // Sticky Navbar
-
-  useEffect(() => {
-    const sectionHero = document.querySelector(".section-hero");
-
-    const observerCallback = (entries) => {
-      const ent = entries[0];
-      !ent.isIntersecting
-        ? document.body.classList.add("sticky")
-        : document.body.classList.remove("sticky");
-    };
-
-    const options = {
-      root: null,
-      threshold: 0,
-      rootMargin: "-100px",
-    };
-
-    const observer = new IntersectionObserver(observerCallback, options);
-
-    observer.observe(sectionHero);
-
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  const { useStickyNavbar } = Handlers();
+  useStickyNavbar();
 
   return (
     <>
       <Header />
       <div
-        className={`section-hero py-[9rem] px-[40rem] w-[100%] relative object-cover h-[100%] transition-all duration-[0.4s] ease-linear  
+        className={`section-main py-[9rem] px-[40rem] w-[100%] relative object-cover h-[100%] transition-all duration-[0.4s] ease-linear  
         bg-no-repeat bg-center bg-cover max-2xl:px-[20rem] max-xl:px-[10rem] max-md:px-[3rem]`}
       >
         <video
@@ -51,8 +27,8 @@ const Hero = () => {
           <p className="text-[2rem] text-[white] font-normal max-sm:text-[1.8rem]">
             The Pathway To A Successful Career
           </p>
-          <h1 className="text-[5rem] font-medium text-[white] max-sm:text-[4rem] max-[450px]:text-[3.2rem]">
-            Verma Institute Of <br /> Management Studies
+          <h1 className="text-[6rem] text-[white] font-medium max-xl:text-[5rem] max-md:text-[3.6rem] max-w-[80%] max-sm:max-w-[100%]">
+            Verma Institute Of Management Studies
           </h1>
           <p className="text-[2rem] text-[white] font-normal max-sm:text-[1.8rem]">
             Over the course of one year, you will acquire an extensive

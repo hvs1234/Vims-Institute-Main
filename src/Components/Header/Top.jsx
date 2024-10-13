@@ -5,7 +5,7 @@ const Top = () => {
     <>
       <div
         className="bg-[#2c3d6b] w-[100%] flex gap-[1rem] items-center justify-center px-[40rem] py-[1.5rem] 
-        max-2xl:px-[20rem] max-xl:px-[10rem] max-md:px-[2rem]"
+        max-2xl:px-[20rem] max-[1200px]:px-[2rem]"
       >
         <div className="flex items-center gap-[2rem] justify-start w-[100%] max-sm:flex-col max-sm:items-start max-sm:gap-[1rem]">
           <p className="text-[1.6rem] text-[white] font-normal">

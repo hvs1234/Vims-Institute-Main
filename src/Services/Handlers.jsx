@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { setPath, toggleNav } from "./Slice";
-import { useCallback } from "react";
+import { useCallback, useEffect } from "react";
 
 const Handlers = () => {
   const dispatch = useDispatch();
@@ -9,6 +9,7 @@ const Handlers = () => {
   const hometipsdata = useSelector((state) => state.app.hometipsdata);
   const homevaluesdata = useSelector((state) => state.app.homevaluesdata);
   const homeprogramdata = useSelector((state) => state.app.homeprogramdata);
+  const aboutusbannerdata = useSelector((state) => state.app.aboutusbannerdata);
   const isActive = useSelector((state) => state.app.isActive);
 
   const handleOnClick = useCallback(
@@ -24,6 +25,36 @@ const Handlers = () => {
     dispatch(toggleNav());
   }, [dispatch]);
 
+  // Sticky Navbar Logic
+  const useStickyNavbar = () => {
+    useEffect(() => {
+      const sectionHero = document.querySelector(".section-main");
+
+      const observerCallback = (entries) => {
+        const ent = entries[0];
+        !ent.isIntersecting
+          ? document.body.classList.add("sticky")
+          : document.body.classList.remove("sticky");
+      };
+
+      const options = {
+        root: null,
+        threshold: 0,
+        rootMargin: "-100px",
+      };
+
+      const observer = new IntersectionObserver(observerCallback, options);
+
+      if (sectionHero) {
+        observer.observe(sectionHero);
+      }
+
+      return () => {
+        observer.disconnect();
+      };
+    }, []);
+  };
+
   return {
     handleOnClick,
     navlinkdata,
@@ -31,6 +62,8 @@ const Handlers = () => {
     hometipsdata,
     homevaluesdata,
     homeprogramdata,
+    aboutusbannerdata,
+    useStickyNavbar,
     isActive,
     toggleNavbar,
   };

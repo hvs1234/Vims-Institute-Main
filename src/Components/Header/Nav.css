@@ -6,8 +6,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
     z-index: 9999;
     margin: 0 auto;
@@ -45,6 +45,7 @@
 
     .navlink {
         font-size: 2.5rem;
+        font-weight: 100;
         color: white;
     }
 

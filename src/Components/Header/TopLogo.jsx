@@ -10,7 +10,7 @@ const TopLogo = () => {
     <>
       <div
         className="w-[100%] bg-[white] px-[40rem] py-[2rem] flex justify-between items-center gap-[2rem] 
-        max-2xl:px-[20rem] max-xl:px-[10rem] max-md:px-[2rem] max-md:flex-col"
+        max-2xl:px-[20rem] max-[1200px]:px-[2rem] max-md:flex-col"
       >
         <Link
           to={"/"}

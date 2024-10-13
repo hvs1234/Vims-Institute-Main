@@ -11,7 +11,7 @@ const Nav = () => {
     <>
       <div
         className={`header flex relative z-[9999] items-center gap-[4rem] justify-center w-[100%] px-[40rem] py-[1rem] 
-        bg-[#f2f2f2] max-[1200px]:justify-between max-2xl:px-[20rem] max-xl:px-[10rem] max-[1200px]:px-[2rem] shadow-sm ${
+        bg-[#f2f2f2] max-[1200px]:justify-between max-2xl:px-[10rem] max-[1200px]:px-[2rem] shadow-sm ${
           isActive ? "active" : ""
         }`}
       >
@@ -35,9 +35,7 @@ const Nav = () => {
                   to={e.link}
                   onClick={handleOnClick(e.to)}
                   className={`navlink text-[1.6rem] text-[#414141] max-[1200px]:text-[#212121] 
-                  max-[1200px]:font-bold max-[1200px]:tracking-[0.5px] font-normal 
-                  uppercase transition-all duration-[0.2s] ease-linear 
-                  hover:opacity-[0.8]`}
+                  max-[1200px]:font-bold font-normal uppercase transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]`}
                 >
                   {e.name}
                 </Link>
