@@ -5,7 +5,7 @@ import Header from "../../Components/Header/Header";
 import Handlers from "../../Services/Handlers";
 
 const Hero = () => {
-  const { useStickyNavbar } = Handlers();
+  const { useStickyNavbar, handleOnClick } = Handlers();
   useStickyNavbar();
 
   return (
@@ -38,6 +38,7 @@ const Hero = () => {
           <div className="flex items-center mt-[2rem] w-[100%]">
             <Link
               to={"/"}
+              onClick={handleOnClick("/")}
               className="bg-[#263169] capitalize px-[2rem] py-[1rem] text-[white] font-normal text-[1.8rem] rounded-sm 
               transition-all duration-[0.2s] ease-linear hover:opacity-[0.9]"
             >

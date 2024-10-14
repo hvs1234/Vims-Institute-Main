@@ -1,39 +1,37 @@
-// import React from 'react'
+import ImageCard from "../../Components/Card/ImageCard";
+import Handlers from "../../Services/Handlers";
 
 const AboutMain = () => {
+  const { aboutmainimg } = Handlers();
+
   return (
     <>
-      <div className="py-[9rem] px-[20rem] w-[100%] relative object-cover">
+      <div className="py-[9rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
         <div className="flex flex-col justify-center items-center text-center gap-[2rem] w-[100%]">
           <h2 className="text-[3rem] font-normal text-[#212121]">
-            Uttarakhand - The Hospitaility Hub Of India
+            Dehradun - The Hospitaility Hub Of India
           </h2>
           <div className="flex flex-col gap-[1rem] justify-center items-center text-center">
             <p className="text-[1.8rem] font-normal text-[#212121]">
-              VIMS Dehradun was established in 2024 with the mission of
-              delivering high-quality Since then the Institute is aimed on
-              imparting quality hospitality education that evolves with industry
-              trends, ensuring student receive current and relevant experience
-              and knowledge. Our institute VIMS is approved by the highly ranked
-              Sridev Suman Uttarakhand University.
+              This diploma is designed not just to teach you the fundamentals
+              but to immerse you in real-world scenarios through practical
+              training and internships. You will gain hands-on experience in
+              critical aspects of the hospitality industry, such as guest
+              relations, revenue management, and culinary arts, equipping you
+              with the skills needed to excel in various roles within the hotel
+              industry. From managing day-to-day operations to ensuring
+              exceptional customer service, this program prepares you to be a
+              key player in any hospitality establishment.
             </p>
             <p className="text-[1.8rem] font-normal text-[#212121]">
-              At VIMS, we are committed to providing exceptional education,
-              training, career assistance to ambitious students. We prioritise
-              offering comprehensive exposure and hands-on training to prepare
-              our graduates for success in the hospitality industry, resulting
-              in excellent placement outcomes through our strong industry
-              collaborations.{" "}
-            </p>
-            <p className="text-[1.8rem] font-normal text-[#212121]">
-              Our philosophy is to deliver education that aligns with industry
-              requirements and skills. We emphasize the importance of
-              understanding and adapting to industry demands in addition to the
-              standard course content. We encourage students to stay informed
-              about evolving trends across various sectors to ensure they are
-              confident at the outset of their careers.
+              Our curriculum is taught by industry professionals with years of
+              experience, ensuring that you are learning the most up-to-date
+              practices and trends. Additionally, the program emphasizes
+              leadership, communication, and problem-solving, qualities that are
+              essential for success in this competitive industry.
             </p>
           </div>
+          <ImageCard aboutmainimg={aboutmainimg} />
         </div>
       </div>
     </>

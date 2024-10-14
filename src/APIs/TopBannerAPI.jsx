@@ -4,6 +4,6 @@ export const AboutUsBannerData = [
     topdesc: `About Us`,
     img: `bg-[url('/Images/7.jpg')]`,
     title: `Verma Institute Of Management Studies`,
-    title2: `In Hotel Management`
+    title2: `Hotel Management`
   },
 ];

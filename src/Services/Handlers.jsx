@@ -10,6 +10,12 @@ const Handlers = () => {
   const homevaluesdata = useSelector((state) => state.app.homevaluesdata);
   const homeprogramdata = useSelector((state) => state.app.homeprogramdata);
   const aboutusbannerdata = useSelector((state) => state.app.aboutusbannerdata);
+  const aboutmainimg = useSelector((state) => state.app.aboutmainimg);
+  const twocolshomeaboutdata = useSelector(
+    (state) => state.app.twocolshomeaboutdata
+  );
+  const twocolsaboutdata = useSelector((state) => state.app.twocolsaboutdata);
+  const abouttipsdata = useSelector((state) => state.app.abouttipsdata);
   const isActive = useSelector((state) => state.app.isActive);
 
   const handleOnClick = useCallback(
@@ -63,9 +69,13 @@ const Handlers = () => {
     homevaluesdata,
     homeprogramdata,
     aboutusbannerdata,
+    aboutmainimg,
+    twocolshomeaboutdata,
+    twocolsaboutdata,
     useStickyNavbar,
     isActive,
     toggleNavbar,
+    abouttipsdata,
   };
 };
 

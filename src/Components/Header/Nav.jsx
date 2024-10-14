@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <>
       <div
-        className={`header flex relative z-[9999] items-center gap-[4rem] justify-center w-[100%] px-[40rem] py-[1rem] 
+        className={`header flex relative z-[9999] items-center gap-[4rem] justify-center w-[100%] px-[20rem] py-[1rem] 
         bg-[#f2f2f2] max-[1200px]:justify-between max-2xl:px-[10rem] max-[1200px]:px-[2rem] shadow-sm ${
           isActive ? "active" : ""
         }`}

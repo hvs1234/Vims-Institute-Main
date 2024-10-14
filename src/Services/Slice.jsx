@@ -4,6 +4,9 @@ import { HomePromoteData, HomeTipsData } from "../APIs/HomePromoteAPI";
 import { HomeValuesData } from "../APIs/HomeValuesAPI";
 import { HomeProgramData } from "../APIs/HomeProgramCardAPI";
 import { AboutUsBannerData } from "../APIs/TopBannerAPI";
+import { AboutMainImg } from "../APIs/ImageCardAPI";
+import { TwoColsAboutData, TwoColsHomeAboutData } from "../APIs/TwoColsDataAPI";
+import { AboutTipsData } from "../APIs/TipsAPI";
 
 const initialState = {
   path: "/",
@@ -14,6 +17,10 @@ const initialState = {
   homevaluesdata: HomeValuesData,
   homeprogramdata: HomeProgramData,
   aboutusbannerdata: AboutUsBannerData,
+  aboutmainimg: AboutMainImg,
+  twocolshomeaboutdata: TwoColsHomeAboutData,
+  twocolsaboutdata: TwoColsAboutData,
+  abouttipsdata: AboutTipsData,
 };
 
 const Slice = createSlice({
@@ -33,6 +40,10 @@ const Slice = createSlice({
       state.homevaluesdata = action.payload;
       state.homeprogramdata = action.payload;
       state.aboutusbannerdata = action.payload;
+      state.aboutmainimg = action.payload;
+      state.twocolshomeaboutdata = action.payload;
+      state.twocolsaboutdata = action.payload;
+      state.abouttipsdata = action.payload;
     },
   },
 });

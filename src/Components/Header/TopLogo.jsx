@@ -23,12 +23,13 @@ const TopLogo = () => {
             className="w-[40%] max-lg:w-[60%] max-md:w-[40%] max-[500px]:w-[60%]"
           />
         </Link>
-        <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-start">
+        <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-between">
           <h2 className="uppercase font-normal text-[1.6rem]">
             Admissions Open
           </h2>
           <Link
             to={"/"}
+            onClick={handleOnClick("/")}
             className="bg-[crimson] text-[white] text-[1.6rem] font-normal px-[2rem] py-[1rem] rounded-sm 
             transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]"
           >

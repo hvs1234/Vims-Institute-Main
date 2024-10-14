@@ -34,8 +34,8 @@ const HomeFuture = () => {
             </p>
             <div className="flex items-center mt-[1rem]">
               <Link
-                to={"/"}
-                onClick={handleOnClick("/")}
+                to={"/aboutus"}
+                onClick={handleOnClick("/aboutus")}
                 className="bg-[darkviolet] px-[2rem] py-[1rem] 
                 rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]"
               >

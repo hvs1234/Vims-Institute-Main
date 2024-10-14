@@ -2,6 +2,7 @@
 
 import Footer from "../../Components/Footer/Footer";
 import ScrollTop from "../../Components/Footer/ScrollTop";
+import Handlers from "../../Services/Handlers";
 import Hero from "./Hero";
 import HomeAbout from "./HomeAbout";
 import HomeCareer from "./HomeCareer";
@@ -14,11 +15,13 @@ import HomeTour from "./HomeTour";
 import HomeValues from "./HomeValues";
 
 const Home = () => {
+  const { twocolshomeaboutdata } = Handlers();
+
   return (
     <>
       <Hero />
       <HomePromote />
-      <HomeAbout />
+      <HomeAbout twocolsdata={twocolshomeaboutdata} />
       <HomeValues />
       <HomeFuture />
       <HomeProgram />
