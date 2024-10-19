@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const HomeProgramCard = ({ homeprogramdata }) => {
   return (
     <>
-      <div className="mt-[4rem] w-[100%] grid grid-cols-3 gap-[2rem] max-xl:grid-cols-2 max-sm:grid-cols-1">
+      <div className="mt-[4rem] w-[100%] grid grid-cols-3 justify-center ml-auto mr-auto gap-[2rem] max-xl:grid-cols-2 max-sm:grid-cols-1">
         {homeprogramdata.map((e) => {
           return (
             <div

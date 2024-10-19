@@ -31,7 +31,7 @@ const AboutMain = () => {
               essential for success in this competitive industry.
             </p>
           </div>
-          <ImageCard aboutmainimg={aboutmainimg} />
+          <ImageCard imageMain={aboutmainimg} />
         </div>
       </div>
     </>

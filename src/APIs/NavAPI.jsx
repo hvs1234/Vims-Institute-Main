@@ -14,7 +14,7 @@ export const NavLinkData = [
   {
     id: 3,
     name: "Program",
-    to: "/",
+    to: "/program",
     icon: "",
   },
   {

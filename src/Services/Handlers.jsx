@@ -9,8 +9,18 @@ const Handlers = () => {
   const hometipsdata = useSelector((state) => state.app.hometipsdata);
   const homevaluesdata = useSelector((state) => state.app.homevaluesdata);
   const homeprogramdata = useSelector((state) => state.app.homeprogramdata);
+
+  // Banner Data
   const aboutusbannerdata = useSelector((state) => state.app.aboutusbannerdata);
+  const programbannerdata = useSelector((state) => state.app.programbannerdata);
+
+  // Image Data
   const aboutmainimg = useSelector((state) => state.app.aboutmainimg);
+  const programimg = useSelector((state) => state.app.programimg);
+
+  // Form Data
+  const programformdata = useSelector((state) => state.app.programformdata);
+
   const twocolshomeaboutdata = useSelector(
     (state) => state.app.twocolshomeaboutdata
   );
@@ -68,8 +78,18 @@ const Handlers = () => {
     hometipsdata,
     homevaluesdata,
     homeprogramdata,
+
+    // Banner Data
     aboutusbannerdata,
+    programbannerdata,
+
+    // Image Data
     aboutmainimg,
+    programimg,
+
+    // Form Data
+    programformdata,
+
     twocolshomeaboutdata,
     twocolsaboutdata,
     useStickyNavbar,

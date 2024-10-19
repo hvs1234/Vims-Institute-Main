@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
 
-const ImageCard = ({ aboutmainimg }) => {
+const ImageCard = ({ imageMain }) => {
   return (
     <>
       <div className="grid grid-cols-3 gap-[2rem] justify-center w-[100%] relative mt-[4rem] max-md:grid-cols-2 max-sm:grid-cols-1">
-        {aboutmainimg.map((e) => {
+        {imageMain.map((e) => {
           return (
             <div
               key={e.id}
@@ -24,7 +24,7 @@ const ImageCard = ({ aboutmainimg }) => {
 };
 
 ImageCard.propTypes = {
-  aboutmainimg: PropTypes.array.isRequired,
+  imageMain: PropTypes.array.isRequired,
 };
 
 export default ImageCard;

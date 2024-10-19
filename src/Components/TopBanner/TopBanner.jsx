@@ -1,9 +1,10 @@
 // import React from 'react'
 import PropTypes from "prop-types";
 import Handlers from "../../Services/Handlers";
+import { Link } from "react-router-dom";
 
 const TopBanner = ({ bannerdata }) => {
-  const { useStickyNavbar } = Handlers();
+  const { useStickyNavbar, handleOnClick } = Handlers();
   useStickyNavbar();
 
   return (
@@ -26,6 +27,15 @@ const TopBanner = ({ bannerdata }) => {
               <h2 className="text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem]">
                 {e.title2}
               </h2>
+              <div className="flex items-center mt-[1rem]">
+                <Link
+                  to={e.to}
+                  onClick={handleOnClick(e.to)}
+                  className={`${e.btnClass}`}
+                >
+                  {e.btnText}
+                </Link>
+              </div>
             </div>
           </div>
         );

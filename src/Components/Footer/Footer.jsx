@@ -68,7 +68,6 @@ const Footer = () => {
                 <Link
                   to={"/"}
                   onClick={handleOnClick("/")}
-                  href="https://maps.app.goo.gl/xMhCaHrLuzUgrpqe7"
                   target="_blank"
                   className="bg-[crimson] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
@@ -80,7 +79,6 @@ const Footer = () => {
                 <Link
                   to={"/"}
                   onClick={handleOnClick("/")}
-                  href="https://maps.app.goo.gl/xMhCaHrLuzUgrpqe7"
                   target="_blank"
                   className="bg-[#43438c] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
