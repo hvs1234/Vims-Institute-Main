@@ -25,8 +25,8 @@ const HomeProgram = () => {
           </h2>
           <div className="flex items-center mt-[1rem]">
             <Link
-              to={"/"}
-              onClick={handleOnClick("/")}
+              to={"/program"}
+              onClick={handleOnClick("/program")}
               className="bg-transparent px-[2rem] py-[1rem] 
                 rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] 
                 transition-all duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black]"

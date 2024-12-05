@@ -21,12 +21,13 @@ const TopBanner = ({ bannerdata }) => {
               <p className="text-[2rem] font-normal text-[white] uppercase">
                 {e.topdesc}
               </p>
-              <h1 className="text-[6rem] text-[white] font-normal max-xl:text-[5rem] max-md:text-[4rem] max-sm:text-[3.6rem]">
+              <h1 className={`text-[6rem] text-[white] font-normal max-xl:text-[5rem] max-md:text-[4rem] max-sm:text-[3.6rem]`}>
                 {e.title}
               </h1>
-              <h2 className="text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem]">
+              <h2 className={`text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem] ${e.titleclass}`}>
                 {e.title2}
               </h2>
+              <p className="text-[1.6rem] text-[white] font-normal">{e.para}</p>
               <div className="flex items-center mt-[1rem]">
                 <Link
                   to={e.to}

@@ -9,10 +9,17 @@ const Handlers = () => {
   const hometipsdata = useSelector((state) => state.app.hometipsdata);
   const homevaluesdata = useSelector((state) => state.app.homevaluesdata);
   const homeprogramdata = useSelector((state) => state.app.homeprogramdata);
+  const programadmissioncarddata = useSelector(
+    (state) => state.app.programadmissioncarddata
+  );
 
   // Banner Data
   const aboutusbannerdata = useSelector((state) => state.app.aboutusbannerdata);
   const programbannerdata = useSelector((state) => state.app.programbannerdata);
+  const admissionbannerdata = useSelector(
+    (state) => state.app.admissionbannerdata
+  );
+  const contactbannerdata = useSelector((state) => state.app.contactbannerdata);
 
   // Image Data
   const aboutmainimg = useSelector((state) => state.app.aboutmainimg);
@@ -20,6 +27,7 @@ const Handlers = () => {
 
   // Form Data
   const programformdata = useSelector((state) => state.app.programformdata);
+  const admissionformdata = useSelector((state) => state.app.admissionformdata);
 
   const twocolshomeaboutdata = useSelector(
     (state) => state.app.twocolshomeaboutdata
@@ -78,10 +86,13 @@ const Handlers = () => {
     hometipsdata,
     homevaluesdata,
     homeprogramdata,
+    programadmissioncarddata,
 
     // Banner Data
     aboutusbannerdata,
     programbannerdata,
+    admissionbannerdata,
+    contactbannerdata,
 
     // Image Data
     aboutmainimg,
@@ -89,6 +100,7 @@ const Handlers = () => {
 
     // Form Data
     programformdata,
+    admissionformdata,
 
     twocolshomeaboutdata,
     twocolsaboutdata,
