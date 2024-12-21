@@ -28,8 +28,8 @@ const TopLogo = () => {
             Admissions Open
           </h2>
           <Link
-            to={"/"}
-            onClick={handleOnClick("/")}
+            to={"/admission"}
+            onClick={handleOnClick("/admission")}
             className="bg-[crimson] text-[white] text-[1.6rem] font-normal px-[2rem] py-[1rem] rounded-sm 
             transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]"
           >

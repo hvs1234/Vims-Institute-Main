@@ -3,7 +3,7 @@ import ProgramAdmissionCard from "../../Components/Card/ProgramAdmissionCard";
 const ProgramAdmission = () => {
   return (
     <>
-      <div className="py-[6rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem]">
+      <div className="py-[6rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem] bg-[#f2f2f2]">
         <div className="relative w-[100%] flex flex-col gap-[1rem] justify-center items-center text-center">
           <h2 className="text-[3rem] font-normal text-[#212121]">
             The Application Process

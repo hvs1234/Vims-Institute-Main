@@ -4,6 +4,8 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Program from "./Pages/Program/Program";
 import Admission from "./Pages/Admission/Admission";
 import Contact from "./Pages/Contact/Contact";
+import Fee from "./Pages/Fee/Fee";
+import FeeLink from "./Pages/Fee/FeeLink";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
           <Route path="/program" element={<Program />}></Route>
           <Route path="/admission" element={<Admission />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/fee" element={<Fee />}></Route>
+          <Route path="/feelink" element={<FeeLink />}></Route>
         </Routes>
       </BrowserRouter>
     </>

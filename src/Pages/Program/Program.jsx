@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Header from "../../Components/Header/Header";
 import TopBanner from "../../Components/TopBanner/TopBanner";
 import Handlers from "../../Services/Handlers";
@@ -9,6 +10,7 @@ import ProgramCareer from "./ProgramCareer";
 import ProgramTips from "./ProgramTips";
 import ProgramAdmission from "./ProgramAdmission";
 import ProgramForm from "./ProgramForm";
+import ProgramCourseMain from "./ProgramCourseMain";
 
 const Program = () => {
   const { programbannerdata } = Handlers();
@@ -18,10 +20,11 @@ const Program = () => {
       <Header />
       <TopBanner bannerdata={programbannerdata} />
       <ProgramCourse />
+      <ProgramCourseMain />
       <ProgramFacilities />
       <ProgramCareer />
-      <ProgramTips />
-      <ProgramAdmission />
+      {/* <ProgramTips /> */}
+      {/* <ProgramAdmission /> */}
       <ProgramForm />
 
       {/* Footer */}

@@ -20,7 +20,7 @@ export const HomeProgramData = [
     id: 3,
     icon: BiSolidSchool,
     name: `World Class Campus`,
-    desc: `LWe are a leading hospitality institute that focuses solely on preparing our students with sophisticated infrastructure.`,
+    desc: `We are a leading hospitality institute that focuses solely on preparing our students with sophisticated infrastructure.`,
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const HomeProgramData = [
   {
     id: 5,
     icon: PiHandshake,
-    name: `International Partnerships`,
+    name: `Partnerships`,
     desc: `International exposure with strategic tie-ups with leading global partners for exchange programmes and higher education opportunities.`,
   },
   {

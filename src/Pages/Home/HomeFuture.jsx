@@ -2,7 +2,7 @@
 
 import { Link } from "react-router-dom";
 import Handlers from "../../Services/Handlers";
-import home_future_img from "/Images/8.jpg";
+import home_future_img from "/Images/13.jpg";
 
 const HomeFuture = () => {
   const { handleOnClick } = Handlers();

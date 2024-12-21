@@ -31,9 +31,10 @@ const Hero = () => {
             Verma Institute Of Management Studies
           </h1>
           <p className="text-[2rem] text-[white] font-normal max-sm:text-[1.8rem]">
-            Over the course of one year, you will acquire an extensive
-            understanding of hotel operations, encompassing front office
-            management, housekeeping, and food and beverage service.
+            Over the course of a year, you will gain comprehensive expertise in
+            hotel operations, including front office management, housekeeping,
+            and food and beverage service, preparing you to excel in every facet
+            of the hospitality industry.
           </p>
           <div className="flex items-center mt-[2rem] w-[100%]">
             <Link

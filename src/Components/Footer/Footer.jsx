@@ -36,9 +36,8 @@ const Footer = () => {
                 Uttarakhand India
               </p>
               <p className="text-[1.8rem] font-normal text-[white] hover:opacity-[0.8]">
-                <i className="fa-solid fa-phone"></i>&nbsp; Fax-{" "}
-                <a href="tel:01010101">+91-0101010101</a> <br /> For Admission
-                Call- <a href="tel:01010101">+91-0101010101</a>
+                <i className="fa-solid fa-phone"></i>&nbsp; For Admission Call-{" "}
+                <a href="tel:01010101">+91-0101010101</a>
               </p>
               <p className="text-[1.8rem] font-normal text-[white] hover:opacity-[0.8]">
                 <i className="fa-solid fa-envelope"></i>&nbsp;{" "}
@@ -47,27 +46,37 @@ const Footer = () => {
             </div>
             <div className="flex items-center mt-[1rem]">
               <a
-                href="https://maps.app.goo.gl/xMhCaHrLuzUgrpqe7"
-                target="_blank"
-                className="bg-transparent border-[1px] border-[white] px-[2rem] py-[1rem] 
+                // href=""
+                // href="https://maps.app.goo.gl/xMhCaHrLuzUgrpqe7"
+                // target="_blank"
+                className="bg-transparent border-[1px] border-[white] px-[2rem] py-[1rem]
                 rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
               >
                 Get Directions
               </a>
             </div>
           </div>
-          <div className="flex flex-col gap-[2rem] w-[100%] relative justify-end items-start max-lg:justify-center max-lg:items-center max-lg:text-center">
+          <div className="flex flex-col gap-[1rem] w-[100%] relative justify-end items-start max-lg:justify-center max-lg:items-center max-lg:text-center">
             <p className="text-[2rem] font-normal text-[white]">
               Program Offered
             </p>
             <p className="text-[1.8rem] font-normal text-[white]">
-              Diplome In Hotel Management
+              1. Diploma In Hotel Management
+            </p>
+            <p className="text-[1.8rem] font-normal text-[white]">
+              2. Diploma in Tourism Management
+            </p>
+            <p className="text-[1.8rem] font-normal text-[white]">
+              3. Short Term Personality Development
+            </p>
+            <p className="text-[1.8rem] font-normal text-[white]">
+              4. Short Term Course in Mass Media
             </p>
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-center">
               <div className="flex items-center mt-[1rem]">
                 <Link
-                  to={"/"}
-                  onClick={handleOnClick("/")}
+                  to={"/admission"}
+                  onClick={handleOnClick("/admission")}
                   target="_blank"
                   className="bg-[crimson] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
@@ -75,7 +84,7 @@ const Footer = () => {
                   Apply Now
                 </Link>
               </div>
-              <div className="flex items-center mt-[1rem]">
+              {/* <div className="flex items-center mt-[1rem]">
                 <Link
                   to={"/"}
                   onClick={handleOnClick("/")}
@@ -85,7 +94,7 @@ const Footer = () => {
                 >
                   <i className="fa-solid fa-download"></i>&nbsp; Brochure
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -97,7 +106,13 @@ const Footer = () => {
         <div className="flex items-start justify-start gap-[1rem]">
           <p className="text-[1.8rem] font-normal text-[white]">
             &copy; 2024. Verma Institute Of Management Studies. All right
-            reserved.
+            reserved. IT Support By{" "}
+            <a
+              href="https://twomglobal.com"
+              className="text-[1.8rem] text-[wheat] font-semibold hover:opacity-[0.8]"
+            >
+              TWOM Global
+            </a>
           </p>
         </div>
         <div className="flex items-center justify-end gap-[1rem]">

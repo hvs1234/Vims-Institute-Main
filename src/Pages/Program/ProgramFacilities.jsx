@@ -6,8 +6,8 @@ const ProgramFacilities = () => {
 
   return (
     <>
-      <div className="py-[9rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
-        <div className="h-[1px] w-[100%] bg-[#9f9f9f] mb-[6rem]"></div>
+      <div className="py-[6rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
+        {/* <div className="h-[1px] w-[100%] bg-[#9f9f9f] mb-[6rem]"></div> */}
         <div className="flex flex-col justify-center items-center text-center gap-[2rem] w-[100%] mb-[6rem]">
           <h2 className="text-[4rem] font-normal text-[#212121] max-md:text-[3rem]">
             Why hotel management ?

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // import React from 'react'
 
 import Header from "../../Components/Header/Header";
@@ -20,7 +21,7 @@ const AboutUs = () => {
       <AboutMain />
       <AboutVims />
       <HomeAbout twocolsdata={twocolsaboutdata} />
-      <AboutMember />
+      {/* <AboutMember /> */}
 
       {/* Footer */}
       <ScrollTop />

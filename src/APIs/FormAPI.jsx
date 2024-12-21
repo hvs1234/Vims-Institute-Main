@@ -53,9 +53,9 @@ export const AdmissionFormData = [
   },
   {
     id: 4,
-    label: `City`,
+    label: `City *`,
     inputType: `text`,
     placeHolder: `Enter Your City`,
-    required: ``,
+    required: `required`,
   },
 ];

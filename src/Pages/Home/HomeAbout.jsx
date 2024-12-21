@@ -11,6 +11,7 @@ const HomeAbout = ({ twocolsdata }) => {
                 {e.title}
               </h2>
               <p className="text-[1.8rem] font-normal text-[white]">{e.desc}</p>
+              <p className="text-[1.8rem] font-normal text-[white]">{e.desc2}</p>
             </div>
           );
         })}

@@ -1,4 +1,4 @@
-import about_vims_img from "/Images/9.jpg";
+import about_vims_img from "/Images/14.jpg";
 
 const AboutVims = () => {
   return (

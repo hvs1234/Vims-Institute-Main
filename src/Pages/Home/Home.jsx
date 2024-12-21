@@ -15,7 +15,7 @@ import HomeTour from "./HomeTour";
 import HomeValues from "./HomeValues";
 
 const Home = () => {
-  const { twocolshomeaboutdata } = Handlers();
+  const { twocolshomeaboutdata } = Handlers();  
 
   return (
     <>

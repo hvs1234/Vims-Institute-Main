@@ -8,7 +8,7 @@ const HomeTour = () => {
 
   return (
     <>
-      <div className="py-[9rem] bg-[url('/Images/Academics/4.jpg')] bg-no-repeat bg-center bg-cover relative w-[100%] h-[50vh] bg-fixed object-cover">
+      <div className="py-[9rem] bg-[url('/Images/15.jpg')] bg-no-repeat bg-center bg-cover relative w-[100%] h-[50vh] bg-fixed object-cover">
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[black] opacity-[0.5]"></div>
         <div className="relative flex flex-col gap-[2rem] justify-center items-center text-center w-[100%] h-[100%]">
           <h2 className="text-[4rem] text-[white] font-normal max-xl:text-[3rem]">

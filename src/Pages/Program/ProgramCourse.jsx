@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import program_course_img from "/Images/Academics/3.jpg";
+import program_course_img from "/Images/15.jpg";
 import Handlers from "../../Services/Handlers";
 
 const ProgramCourse = () => {
@@ -40,7 +40,7 @@ const ProgramCourse = () => {
                   Apply Now
                 </Link>
               </div>
-              <div className="flex items-center mt-[1rem]">
+              {/* <div className="flex items-center mt-[1rem]">
                 <Link
                   to={"/"}
                   onClick={handleOnClick("/")}
@@ -50,7 +50,7 @@ const ProgramCourse = () => {
                 >
                   <i className="fa-solid fa-download"></i>&nbsp; Brochure
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="flex justify-center w-[100%] h-[100%]">
@@ -61,9 +61,8 @@ const ProgramCourse = () => {
             />
           </div>
         </div>
-        <div className="h-[1px] w-[100%] bg-[#9f9f9f] mt-[6rem]"></div>
       </div>
-      <div
+      {/* <div
         className="flex flex-col justify-center items-center w-[100%] bg-[#f2f2f2] px-[20rem] py-[2rem] 
         max-xl:px-[5rem] max-md:px-[2rem]"
       >
@@ -75,7 +74,7 @@ const ProgramCourse = () => {
           allowfullscreen
           className="w-[100%] h-[500px]"
         ></iframe>
-      </div>
+      </div> */}
     </>
   );
 };

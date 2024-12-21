@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 import AdmissionMain from "./AdmissionMain";
@@ -8,6 +9,8 @@ import HomeTour from "../Home/HomeTour";
 import HomeTips from "../Home/HomeTips";
 import Handlers from "../../Services/Handlers";
 import ScrollTop from "../../Components/Footer/ScrollTop";
+import AdmissionForm from "./AdmissionForm";
+import ProgramAdmission from "../Program/ProgramAdmission";
 
 const Admission = () => {
   const { hometipsdata } = Handlers();
@@ -20,7 +23,9 @@ const Admission = () => {
       <HomeProgram />
       <HomePromote />
       <HomeTour />
-      <HomeTips tipsdata={hometipsdata} />
+      <ProgramAdmission />
+      {/* <HomeTips tipsdata={hometipsdata} /> */}
+      <AdmissionForm />
 
       {/* Footer */}
       <ScrollTop />
