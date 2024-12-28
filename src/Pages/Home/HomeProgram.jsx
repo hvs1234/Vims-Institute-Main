@@ -12,13 +12,13 @@ const HomeProgram = () => {
         <h2 className="text-[3rem] font-normal text-[#212121]">Our Program</h2>
       </div>
       <div
-        className="py-[4rem] px-[4rem] w-[100%] h-[50vh] max-xl:h-[100%] bg-fixed relative object-cover bg-[url('/Images/14.jpg')] 
+        className="py-[4rem] px-[4rem] w-[100%] h-[100%] bg-fixed relative object-cover bg-[url('/Images/14.jpg')] 
         bg-no-repeat bg-center bg-cover max-xl:px-[5rem] max-md:px-[2rem]"
       >
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#171d5a] opacity-[0.4]"></div>
         <div
-          className="grid grid-cols-4 gap-[2rem] w-[100%] justify-center items-center text-center 
-          transition-all duration-[0.4s] ease-linear relative h-[100%] max-xl:grid-cols-2 max-[500px]:grid-cols-1"
+          className="grid grid-cols-3 gap-[2rem] w-[100%] justify-center items-center text-center 
+          transition-all duration-[0.4s] ease-linear relative h-[100%] max-lg:grid-cols-1"
         >
           <div
             className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/12.jpg')] 
@@ -26,9 +26,15 @@ const HomeProgram = () => {
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
             <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[3rem] text-[white]">
+              <h2 className="text-[2.5rem] text-[white] uppercase">
                 Diploma in Hotel Management
               </h2>
+              <p className="text-[1.6rem] font-normal text-center text-[white]">
+                Over the course of a year, you will gain comprehensive expertise
+                in hotel operations, including front office management,
+                housekeeping, and food and beverage service, preparing you to
+                excel in every facet of the hospitality industry.
+              </p>
               <div className="flex items-center">
                 <Link
                   to={"/program"}
@@ -48,9 +54,16 @@ const HomeProgram = () => {
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
             <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[3rem] text-[white]">
+              <h2 className="text-[2.5rem] text-[white] uppercase">
                 Diploma in Tourism Management
               </h2>
+              <p className="text-[1.6rem] font-normal text-center text-[white]">
+                You will develop in-depth knowledge of tourism management,
+                exploring areas such as destination planning, travel operations,
+                and customer engagement, over the course of one year. This
+                program equips you with the skills to excel in the dynamic and
+                ever-evolving global tourism industry.
+              </p>
               <div className="flex items-center">
                 <Link
                   to={"/program"}
@@ -70,31 +83,16 @@ const HomeProgram = () => {
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
             <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[3rem] text-[white]">
-                Short Term Personality Development
+              <h2 className="text-[2.5rem] text-[white] uppercase">
+                SHORT-TERM COURSE IN PERSONALITY DEVELOPMENT
               </h2>
-              <div className="flex items-center">
-                <Link
-                  to={"/program"}
-                  onClick={handleOnClick("/program")}
-                  className="bg-transparent px-[2rem] py-[1rem] 
-                  rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] 
-                  transition-all duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black]"
-                >
-                  Read More
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div
-            className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/15.jpg')] 
-            bg-no-repeat bg-center bg-cover"
-          >
-            <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-center items-center text-center gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%] transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem]">
-              <h2 className="text-[3rem] text-[white]">
-                Short Term Course in Mass Media
-              </h2>
+              <p className="text-[1.6rem] font-normal text-center text-[white]">
+                This short course will help you refine essential skills such as
+                communication, confidence, and leadership while fostering
+                emotional intelligence and a professional attitude. Gain the
+                tools to excel in any field and leave a lasting impression in
+                every sphere of life.
+              </p>
               <div className="flex items-center">
                 <Link
                   to={"/program"}

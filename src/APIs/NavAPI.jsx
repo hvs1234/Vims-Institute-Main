@@ -32,19 +32,19 @@ export const NavLinkData = [
   {
     id: 6,
     name: "Alumni",
-    to: "/",
+    to: "",
     icon: "",
   },
   {
     id: 7,
     name: "Events",
-    to: "/",
+    to: "",
     icon: "",
   },
   {
     id: 8,
     name: "Gallery",
-    to: "/",
+    to: "",
     icon: "",
   },
   {

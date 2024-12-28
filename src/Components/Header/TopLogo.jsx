@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
-import logo from "/Images/logo.png";
+import logo from "/Images/logo-main.png";
 import Handlers from "../../Services/Handlers";
 
 const TopLogo = () => {
@@ -20,7 +20,7 @@ const TopLogo = () => {
           <img
             src={logo}
             alt="logo"
-            className="w-[40%] max-lg:w-[60%] max-md:w-[40%] max-[500px]:w-[60%]"
+            className="w-[50%] max-lg:w-[60%] max-md:w-[40%] max-[500px]:w-[60%]"
           />
         </Link>
         <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-between">

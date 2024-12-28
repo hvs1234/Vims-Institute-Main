@@ -32,10 +32,14 @@ const Nav = () => {
               return (
                 <Link
                   key={e.id}
-                  to={e.link}
-                  onClick={handleOnClick(e.to)}
+                  to={e.to || "#"}
+                  onClick={
+                    e.to ? handleOnClick(e.to) : (e) => e.preventDefault()
+                  }
                   className={`navlink text-[1.6rem] text-[#414141] max-[1200px]:text-[#212121] 
-                  max-[1200px]:font-bold font-normal uppercase transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]`}
+                  max-[1200px]:font-bold font-normal uppercase transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] ${
+                    e.to ? "" : ""
+                  }`}
                 >
                   {e.name}
                 </Link>

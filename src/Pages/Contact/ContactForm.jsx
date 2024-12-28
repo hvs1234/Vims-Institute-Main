@@ -24,19 +24,15 @@ const ContactForm = () => {
               248008, India
               <div className="flex flex-col gap-[1rem]">
                 <p className="text-[1.6rem] text-[#212121]">
-                  Fax: <a href="tel:0101010101">+910101010101</a>{" "}
+                  Phone: <a href="tel:7466899901" className="hover:opacity-[0.8]">+91-7466899901</a>{" "}
                 </p>
                 <p className="text-[1.6rem] text-[#212121]">
-                  Phone: <a href="tel:0101010101">+910101010101</a>{" "}
-                </p>
-                <p className="text-[1.6rem] text-[#212121]">
-                  For Admission Call: <a href="tel:0101010101">+910101010101</a>{" "}
-                  &nbsp;/ <a href="tel:0101010101">+910101010101</a>{" "}
+                  For Admission Call: <a href="tel:7466899902" className="hover:opacity-[0.8]">+91-7466899902</a>{" "}
                 </p>
 
                 <div className="">
-                  or email &nbsp;
-                  <a href="mailto:info@vims.edu.in">info@vims.edu.in</a>
+                  or email: &nbsp;
+                  <a href="mailto:admissions@vims.ac">admissions@vims.ac</a>
                 </div>
               </div>
             </p>

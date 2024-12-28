@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/Images/logo.png";
+import logo from "/Images/logo-main.png";
 import Handlers from "../../Services/Handlers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -35,13 +35,19 @@ const Footer = () => {
                 <i className="fa-solid fa-location-dot"></i>&nbsp; Dehradun,
                 Uttarakhand India
               </p>
-              <p className="text-[1.8rem] font-normal text-[white] hover:opacity-[0.8]">
+              <p className="text-[1.8rem] font-normal text-[white]">
                 <i className="fa-solid fa-phone"></i>&nbsp; For Admission Call-{" "}
-                <a href="tel:01010101">+91-0101010101</a>
+                <a href="tel:7466899901" className="hover:opacity-[0.8]">
+                  +91-7466899901
+                </a>{" "}
+                /
+                <a href="tel:7466899902" className="hover:opacity-[0.8]">
+                  +91-7466899902
+                </a>
               </p>
               <p className="text-[1.8rem] font-normal text-[white] hover:opacity-[0.8]">
                 <i className="fa-solid fa-envelope"></i>&nbsp;{" "}
-                <a href="mailto:info@vims.in">info@vims.in</a>
+                <a href="mailto:admissions@vims.ac">admissions@vims.ac</a>
               </p>
             </div>
             <div className="flex items-center mt-[1rem]">

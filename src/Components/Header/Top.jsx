@@ -9,11 +9,10 @@ const Top = () => {
       >
         <div className="flex items-center gap-[2rem] justify-start w-[100%] max-sm:flex-col max-sm:items-start max-sm:gap-[1rem]">
           <p className="text-[1.6rem] text-[white] font-normal">
-            Contact us: <a href="tel:010101">0101010101</a>
+            Contact us: <a href="tel:7466899901">+91-7466899901</a>
           </p>
           <p className="text-[1.6rem] text-[white] font-normal">
-            For Admission Call: <a href="tel:010101">+91-010101</a>/
-            <a href="tel:010101">01010101</a>/<a href="tel:010101">01010101</a>
+            For Admission Call: <a href="tel:7466899902">+91-7466899902</a>
           </p>
         </div>
       </div>

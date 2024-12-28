@@ -36,7 +36,7 @@ const HomeGreet = () => {
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Dr. Rajendra Kumar Verma, Founder
+              Rajendra Kumar Verma, Founder
             </p>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
               Verma Institue of Management Studies

@@ -49,10 +49,10 @@ export const AdmissionBannerData = [
 export const ContactBannerData = [
   {
     id: 1,
-    topdesc: `Contact`,
+    topdesc: ``,
     img: `bg-[url('/Images/11.jpg')]`,
     titleclass: `hidden`,
-    title: `Get Touch With Us`,
+    title: `Contact Us`,
     title2: `Hotel Management`,
     para: ``,
     btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 

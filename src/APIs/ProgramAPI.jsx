@@ -27,7 +27,7 @@ export const ProgramAdmissionCardData = [
     id: 5,
     value: 5,
     label: `Complete Application Fee Payment`,
-    desc: `After successfully submitting your form, complete the application fee payment. The fee for the diploma in Hotel Management program is ₹1500.`,
+    desc: `After successfully submitting your form, complete the application fee payment.`,
   },
   {
     id: 6,
