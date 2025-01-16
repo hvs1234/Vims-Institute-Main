@@ -48,8 +48,8 @@ const AdmissionForm = () => {
   return (
     <>
       <div
-        className="flex justify-center items-start w-[100%] ml-auto mr-auto h-[100%] px-[4rem] py-[4rem] 
-        max-md:px-[2rem] max-md:py-[2rem]"
+        className="flex justify-center items-start w-[100%] ml-auto mr-auto h-[100%] px-[0rem] py-[4rem] 
+        max-md:px-[0rem] max-md:py-[2rem]"
       >
         <ToastContainer />
         <form

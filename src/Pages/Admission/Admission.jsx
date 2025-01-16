@@ -25,7 +25,6 @@ const Admission = () => {
       <HomeTour />
       <ProgramAdmission />
       {/* <HomeTips tipsdata={hometipsdata} /> */}
-      <AdmissionForm />
 
       {/* Footer */}
       <ScrollTop />

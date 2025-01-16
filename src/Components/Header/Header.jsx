@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="relative bg-[white] w-[100%] h-[100%]">
-        <Top />
+        {/* <Top /> */}
         <TopLogo />
         <Nav />
       </div>

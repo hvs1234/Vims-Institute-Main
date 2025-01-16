@@ -12,11 +12,11 @@ const AdmissionTop = () => {
   return (
     <>
       <div
-        className="section-main py-[9rem] px-[20rem] w-[100%] h-[100%] relative object-cover bg-[url('/Images/About/1.jpg')] 
+        className="section-main py-[6rem] px-[20rem] w-[100%] h-[100%] relative object-cover bg-[url('/Images/About/1.jpg')] 
         bg-no-repeat bg-center bg-cover max-xl:px-[5rem] max-md:px-[3rem]"
       >
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[black] opacity-[0.5]"></div>
-        <div className="relative flex flex-col items-center text-center justify-center gap-[4rem] w-[100%] max-lg:grid-cols-1">
+        <div className="relative grid grid-cols-2 justify-center gap-[4rem] w-[100%] max-lg:grid-cols-1">
           <div className="flex flex-col justify-center w-[100%] gap-[1rem]">
             <p className="text-[2.5rem] text-[white] font-normal">
               Our Admission
@@ -30,7 +30,7 @@ const AdmissionTop = () => {
               Sophisticated Training Equipment and Facilities as per
               International Standards.
             </p>
-            <div className="flex items-center justify-center text-center mt-[2rem] w-[auto]">
+            <div className="flex items-center justify-start text-center mt-[2rem] w-[auto]">
               <Link
                 to={"/program"}
                 onClick={handleOnClick("/program")}
@@ -42,6 +42,7 @@ const AdmissionTop = () => {
             </div>
           </div>
           {/* <AdmissionForm /> */}
+          <AdmissionForm />
         </div>
       </div>
     </>
