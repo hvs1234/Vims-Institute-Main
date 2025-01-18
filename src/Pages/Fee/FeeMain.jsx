@@ -1,7 +1,6 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
-import img1 from "/Images/Fee/1.png";
-import img2 from "/Images/Fee/2.png";
+import img1 from "/Images/Fee/bank.webp";
 import Handlers from "../../Services/Handlers";
 
 const FeeMain = () => {
@@ -18,8 +17,7 @@ const FeeMain = () => {
             Partner Bank
           </p>
           <img src={img1} alt="img" className="w-[15%] h-[100%]" />
-          <img src={img2} alt="img" className="w-[15%] h-[100%]" />
-          <div className="flex flex-col gap-[1rem] w-[100%]">
+          <div className="flex flex-col gap-[1rem] w-[100%] mt-[1rem]">
             <p className="text-[1.6rem] font-normal text-[black]">
               Please follow the following steps for the payment:
             </p>

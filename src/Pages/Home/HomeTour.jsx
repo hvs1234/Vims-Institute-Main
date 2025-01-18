@@ -12,7 +12,7 @@ const HomeTour = () => {
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[black] opacity-[0.5]"></div>
         <div className="relative flex flex-col gap-[2rem] justify-center items-center text-center w-[100%] h-[100%]">
           <h2 className="text-[4rem] text-[white] font-normal max-xl:text-[3rem]">
-            The Virtual Tour of Our Campus!
+            The Virtual Tour of Our Campus
           </h2>
           <div className="flex items-center mt-[1rem]">
             <Link
