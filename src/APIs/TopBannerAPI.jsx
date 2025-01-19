@@ -17,11 +17,11 @@ export const AboutUsBannerData = [
 export const ProgramBannerData = [
   {
     id: 1,
-    topdesc: `Academics > Our Program`,
+    topdesc: `Academics`,
     img: `bg-[url('/Images/Academics/1.jpg')]`,
     titleclass: ``,
-    title: `Hotel Management`,
-    title2: `Our Courses`,
+    title: `Our Courses`,
+    title2: ``,
     para: ``,
     btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
     duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase`,
