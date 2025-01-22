@@ -12,7 +12,10 @@ const HomePromote = () => {
             Educational Development Centre
           </h2>
         </div>
-        <div className="w-[100%] grid grid-cols-3 mt-[4rem] gap-[2rem] justify-start max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]">
+        <div
+          className="w-[100%] grid grid-cols-4 mt-[4rem] gap-[2rem] justify-start max-md:grid-cols-2 
+          max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]"
+        >
           {homepromotedata.map((e) => {
             return (
               <div
@@ -21,7 +24,13 @@ const HomePromote = () => {
               >
                 {/* <p className="text-[2rem] font-normal">{e.name}</p> */}
                 <div className="flex items-center justify-center w-[100%] h-[100%]">
-                  <img src={e.img} alt="img" className="w-[70%]" />
+                  <img
+                    src={e.img}
+                    alt="img"
+                    className={`w-[70%] ${
+                      e.id === 4 ? "w-[500px]" : "w-[70%]"
+                    }`}
+                  />
                 </div>
               </div>
             );

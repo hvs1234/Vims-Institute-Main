@@ -14,6 +14,11 @@ export const HomePromoteData = [
     name: `Options for Higher Education`,
     img: `/Images/HomePromoted/16.png`,
   },
+  {
+    id: 4,
+    name: `Options for Higher Education`,
+    img: `/Images/HomePromoted/17.png`,
+  },
 ];
 
 export const HomeTipsData = [
