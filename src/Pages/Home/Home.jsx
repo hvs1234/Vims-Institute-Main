@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // import React from 'react'
 
 import Footer from "../../Components/Footer/Footer";
@@ -28,7 +29,7 @@ const Home = () => {
       <HomeCareer />
       <HomeTour />
       <HomeGreet />
-      <HomeTips />
+      {/* <HomeTips /> */}
 
       {/* Scroll To Top */}
       <ScrollTop />
