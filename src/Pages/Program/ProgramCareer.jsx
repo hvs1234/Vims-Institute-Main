@@ -15,7 +15,7 @@ const ProgramCareer = () => {
           </h2>
         </div>
         <HomeProgramCard homeprogramdata={homeprogramdata} />
-      </div>
+      </div>  
     </>
   );
 };

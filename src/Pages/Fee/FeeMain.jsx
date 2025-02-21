@@ -11,10 +11,11 @@ const FeeMain = () => {
       <div className="px-[20rem] py-[4rem] max-xl:px-[5rem] max-md:px-[2rem] w-[100%] relative object-cover bg-[#ededed]">
         <div className="bg-[white] shadow-sm shadow-[#bebebe] rounded-md px-[4rem] py-[4rem] w-[100%] h-[100%] relative flex flex-col gap-[1rem] items-start justify-start">
           <h2 className="text-[3rem] max-md:text-[2.5rem] text-[#212121] font-normal">
-            Deposit Fees for 2024-25
+            Fees for 1 year Diploma in Hotel, Tourism & Mass Communication
           </h2>
           <p className="text-[1.6rem] font-normal text-[#212121]">
-            Partner Bank
+            Pay VIMS fees online for 2024-25. Enter details, verify, make
+            payment & download receipt. Secure & hassle-free process. Pay now!
           </p>
           <img src={img1} alt="img" className="w-[15%] h-[100%]" />
           <div className="flex flex-col gap-[1rem] w-[100%] mt-[1rem]">

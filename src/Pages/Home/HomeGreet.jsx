@@ -36,7 +36,7 @@ const HomeGreet = () => {
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Rajendra Kumar Verma, Founder
+              Rajender Kumar Verma, Founder
             </p>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
               Verma Institue of Management Studies
@@ -113,7 +113,7 @@ const HomeGreet = () => {
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Anshul Kumar Verma, Director & Principal
+              Anshul Kumar Verma, Director
             </p>
             <p className="text-[1.8rem] font-normal text-[white] uppercase">
               Verma Institute Of Management Studies

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/Images/logo-main.png";
+import logo from "/Images/logo.png";
 import Handlers from "../../Services/Handlers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
@@ -112,13 +112,14 @@ const Footer = () => {
         <div className="flex items-start justify-start gap-[1rem]">
           <p className="text-[1.8rem] font-normal text-[white]">
             &copy; 2024. Verma Institute Of Management Studies. All right
-            reserved. IT Support By{" "}
+            reserved. 
+            {/* IT Support By{" "}
             <a
               href="https://twomglobal.com"
               className="text-[1.8rem] text-[wheat] font-semibold hover:opacity-[0.8]"
             >
               TWOM Global
-            </a>
+            </a> */}
           </p>
         </div>
         <div className="flex items-center justify-end gap-[1rem]">

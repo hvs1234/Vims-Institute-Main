@@ -26,7 +26,7 @@ const HomeProgram = () => {
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
             <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[2.5rem] text-[white] uppercase">
+              <h2 className="text-[2.5rem] max-[450px]:px-[6rem] max-[380px]:px-0 text-[white] uppercase">
                 Diploma in Hotel Management
               </h2>
               <p className="text-[1.6rem] font-normal text-center text-[white]">
@@ -82,7 +82,7 @@ const HomeProgram = () => {
             bg-no-repeat bg-center bg-cover"
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
+            <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
               <h2 className="text-[2.5rem] text-[white] uppercase">
                 SHORT-TERM COURSE IN MASS COMMUNICATION
               </h2>
