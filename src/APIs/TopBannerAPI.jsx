@@ -61,3 +61,51 @@ export const ContactBannerData = [
     to: `/`,
   },
 ];
+
+export const ProgramDiplomaData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/1.jpg')]`,
+    titleclass: ``,
+    title: `One Year Diploma in Hotel Management - VIMS`,
+    title2: ``,
+    para: `Upon completing the one year diploma in hotel management, you will be well-equipped to take on various roles in esteemed organizations`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];
+
+export const ProgramTourismData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/5.jpg')]`,
+    titleclass: ``,
+    title: `Diploma in Tourism Management - VIMS`,
+    title2: ``,
+    para: `Our Diploma in Tourism Management is meticulously designed to equip students with the skills, knowledge, and industry exposure required to excel in the ever-evolving tourism and hospitality sectors`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];
+
+export const ProgramMassMediaData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/6.jpg')]`,
+    titleclass: ``,
+    title: `Mass Media and Communication Course | Practical Learning`,
+    title2: ``,
+    para: `Enroll in our Mass Media and Communication Course to gain hands-on experience, industry exposure, and practical knowledge for a successful career`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];

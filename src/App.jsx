@@ -6,6 +6,9 @@ import Admission from "./Pages/Admission/Admission";
 import Contact from "./Pages/Contact/Contact";
 import Fee from "./Pages/Fee/Fee";
 import FeeLink from "./Pages/Fee/FeeLink";
+import ProgramDiploma from "./Pages/Program/ProgramDiploma/ProgramDiploma";
+import ProgramTourism from "./Pages/Program/ProgramTourism/ProgramTourism";
+import ProgramMassMedia from "./Pages/Program/ProgramMassMedia/ProgramMassMedia";
 
 const App = () => {
   return (
@@ -19,6 +22,9 @@ const App = () => {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/fee" element={<Fee />}></Route>
           <Route path="/feelink" element={<FeeLink />}></Route>
+          <Route path="/program/diploma" element={<ProgramDiploma />}></Route>
+          <Route path="/program/tourism" element={<ProgramTourism />}></Route>
+          <Route path="/program/massMedia" element={<ProgramMassMedia />}></Route>
         </Routes>
       </BrowserRouter>
     </>
