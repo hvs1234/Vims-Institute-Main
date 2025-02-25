@@ -18,7 +18,7 @@ export const NavLinkData = [
     id: 4,
     name: "Admission",
     dropdown: [
-      { id: 1, name: "One Year Diploma", to: "/program/diploma" },
+      { id: 1, name: "One Year Diploma In Hotel Management", to: "/program/diploma" },
       { id: 2, name: "Tourism Development", to: "/program/tourism" },
       { id: 3, name: "Mass & Media Communication", to: "/program/massMedia" },
     ],

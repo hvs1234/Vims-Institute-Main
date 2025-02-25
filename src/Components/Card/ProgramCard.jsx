@@ -73,6 +73,11 @@ const ProgramCard = ({ programCardData = [] }) => {
                         </div>
                       );
                     })}
+                    {subeleMain?.paraLast ? (
+                      <p className="text-[2rem] font-normal text-[#212121]">
+                        {subeleMain.contentMainDescLast}
+                      </p>
+                    ) : null}
                     {subeleMain?.subHeading2 ? (
                       <p className="text-[2rem] font-normal text-[#414141]">
                         <i className="fa-solid fa-hand-point-right text-[#414141]"></i>

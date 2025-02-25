@@ -82,7 +82,7 @@ export const ProgramTourismData = [
   {
     id: 1,
     topdesc: ``,
-    img: `bg-[url('/Images/5.jpg')]`,
+    img: `bg-[url('/Images/tourism-banner.jpeg')]`,
     titleclass: ``,
     title: `Diploma in Tourism Management - VIMS`,
     title2: ``,
