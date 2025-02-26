@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
-import React from "react";
+import React, { useState } from "react";
 
 const ProgramCard = ({ programCardData = [] }) => {
+  const [openIndex, setOpenIndex] = useState(null);
+
   return (
     <>
       {programCardData.map((eleMain) => {
@@ -19,14 +21,17 @@ const ProgramCard = ({ programCardData = [] }) => {
                 {eleMain.descMain}
               </p>
             </div>
-            <div className="relative mt-[-2rem]">
+            <div
+              className={`relative mt-[-2rem] grid grid-cols-1 gap-[2rem] w-full justify-center`}
+            >
               {eleMain.contentMain?.map((subeleMain) => {
                 return (
                   <div
                     key={subeleMain.id}
-                    className="flex flex-col gap-[2rem] w-full mt-[4rem]"
+                    className={`flex flex-col gap-[2rem] w-full mt-[4rem]`}
                   >
-                    <h2 className="text-[3rem] font-normal text-[#212121]">
+                    <h2 className="text-[2.5rem] font-normal text-[#212121]">
+                      <i className="fa-solid fa-arrows-turn-right"></i>&nbsp;{" "}
                       {subeleMain.contentMainHeading}
                     </h2>
                     {subeleMain.contentMainDesc ? (
@@ -46,7 +51,7 @@ const ProgramCard = ({ programCardData = [] }) => {
                           className={`flex gap-[1rem] w-full ${
                             subeleService?.serviceSubDesc
                               ? "flex-col items-start gap-[2rem]"
-                              : "flex-row items-center max-sm:flex-col max-sm:items-start"
+                              : "flex-col items-start gap-[2rem]"
                           }`}
                           key={subeleService.id}
                         >
@@ -56,7 +61,7 @@ const ProgramCard = ({ programCardData = [] }) => {
                               {subeleService?.serviceTag}:
                             </p>
                           ) : (
-                            <p className="hidden text-[1.8rem] font-medium text-[black]">
+                            <p className="hidden text-[1.8rem] font-normal text-[#414141]">
                               {subeleService?.serviceTag}
                             </p>
                           )}
@@ -231,21 +236,40 @@ const ProgramCard = ({ programCardData = [] }) => {
               )}
               &nbsp; {eleMain.FAQTitle}
             </h2>
-            {eleMain.FAQ?.map((eleFAQ) => {
-              return (
+            <div className="w-full flex flex-col gap-[2rem]">
+              {eleMain.FAQ?.map((eleFAQ, index) => (
                 <div
-                  className="flex flex-col gap-[2rem] w-full"
                   key={eleFAQ.id}
+                  className="border-[1px] border-[#d6d6d6] rounded-xl px-[2rem] py-[1.5rem] flex flex-col"
                 >
-                  <p className="text-[2rem] font-normal text-[#212121]">
-                    {eleFAQ.ques}
-                  </p>
-                  <p className="text-[2rem] font-normal text-[#414141]">
-                    {eleFAQ.ans}
-                  </p>
+                  <div className="flex items-center w-full justify-between gap-[1rem]">
+                    <button
+                      className="text-[2rem] font-normal text-[#212121] w-full text-left"
+                      onClick={() =>
+                        setOpenIndex(openIndex === index ? null : index)
+                      }
+                    >
+                      {eleFAQ.ques}
+                    </button>
+                    <i
+                      className="fa-solid fa-chevron-down text-[#212121] text-[1.4rem] cursor-pointer"
+                      onClick={() =>
+                        setOpenIndex(openIndex === index ? null : index)
+                      }
+                    ></i>
+                  </div>
+                  <div
+                    className={`overflow-hidden transition-all duration-300 ${
+                      openIndex === index ? "max-h-40 mt-[1rem]" : "max-h-0"
+                    }`}
+                  >
+                    <p className="text-[2rem] font-normal text-[#414141] p-4">
+                      {eleFAQ.ans}
+                    </p>
+                  </div>
                 </div>
-              );
-            })}
+              ))}
+            </div>
             <div className="mt-[2rem] w-full flex flex-col gap-[1rem]">
               <h2 className="text-[3rem] font-normal text-[#212121]">
                 {eleMain.conclusion && (

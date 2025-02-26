@@ -640,3 +640,257 @@ export const ProgramTourismCardData = [
     conclusionDesc: `Embark on a transformative learning experience with the Diploma in Tourism Management at Verma Institute of Management Studies (VIMS). Whether you're stepping into the world of tourism for the first time or looking to advance your career, our program equips you with the tools and insights needed to succeed. Take the first step towards a dynamic and fulfilling career in tourism management. Enroll now and become a part of the VIMS legacy of excellence!`,
   },
 ];
+
+export const ProgramMassMediaCardData = [
+  {
+    id: 1,
+    titleMain: `Mass Media and Communication Course`,
+    descMain: `Welcome to Verma Institute of Management Studies (VIMS), where innovation meets education in our Mass Media and Communication Course. Designed for aspiring media professionals, this course is your gateway to mastering the art and science of communication in today’s dynamic media landscape. With our commitment to fostering academic excellence and social responsibility, VIMS offers a cutting-edge curriculum that equips you with the skills to excel in the global media industry.`,
+    contentMain: [
+      {
+        id: 1,
+        contentMainHeading: `What You Learn in Mass Media and Communication Course`,
+        contentMainDesc: `At VIMS, we offer a comprehensive curriculum designed to cover every aspect of mass media and communication. From the fundamentals to advanced industry practices, our course ensures you graduate with a deep understanding of the field. Here’s what you can expect to learn:`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Media Fundamentals",
+            serviceDesc:
+              "Understanding the evolution and importance of mass media in society. Exploring various forms of media, including print, digital, radio, and television.",
+          },
+          {
+            id: 2,
+            serviceTag: "Communication Skills",
+            serviceDesc:
+              "Mastering verbal and non-verbal communication. Developing persuasive writing techniques for diverse audiences.",
+          },
+          {
+            id: 3,
+            serviceTag: "Journalism and Reporting",
+            serviceDesc:
+              "Learning the ethics of journalism and storytelling. Techniques for conducting interviews, research, and fact-checking.",
+          },
+          {
+            id: 4,
+            serviceTag: "Digital Media and Content Creation",
+            serviceDesc:
+              "Harnessing the power of social media and digital platforms. Learning video production, editing, and graphic design.",
+          },
+          {
+            id: 5,
+            serviceTag: "Media Management",
+            serviceDesc:
+              "Understanding the business side of media, including marketing and advertising strategies. Developing leadership and decision-making skills.",
+          },
+          {
+            id: 6,
+            serviceTag: "Public Relations and Advertising",
+            serviceDesc:
+              "Crafting compelling PR campaigns. Exploring consumer behavior and market trends.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        contentMainHeading: `Career After Mass Media and Communication Course`,
+        contentMainDesc: `A Mass Media and Communication Course from VIMS unlocks countless career opportunities across industries. Whether you dream of becoming a journalist, PR specialist, or media strategist, this course provides the foundation for a successful career. Some potential career paths include:`,
+        contentMainDescLast: `According to recent industry reports, the global media and communication market is expected to grow by 6% annually, creating an ever-expanding demand for skilled professionals.`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Journalist or Reporter",
+            serviceDesc: "Dive into investigative reporting and storytelling.",
+          },
+          {
+            id: 2,
+            serviceTag: "Content Creator",
+            serviceDesc:
+              "Create engaging digital content for blogs, social media, or YouTube.",
+          },
+          {
+            id: 3,
+            serviceTag: "Public Relations Manager",
+            serviceDesc:
+              "Shape brand narratives and handle crisis communication.",
+          },
+          {
+            id: 4,
+            serviceTag: "Media Planner",
+            serviceDesc:
+              "Develop strategic advertising campaigns for top brands.",
+          },
+          {
+            id: 5,
+            serviceTag: "Television Producer",
+            serviceDesc:
+              "Oversee the creation of news, entertainment, or documentary programs.",
+          },
+          {
+            id: 6,
+            serviceTag: "Social Media Strategist",
+            serviceDesc:
+              "Use analytics and creativity to grow an online audience.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        contentMainHeading: `Who Should Enroll in Mass Media and Communication Course?`,
+        contentMainDesc: `This course is ideal for individuals who:`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Have a Passion for Storytelling",
+            serviceDesc:
+              "If you love creating impactful stories, this course is for you.",
+          },
+          {
+            id: 2,
+            serviceTag: "Are Tech-Savvy",
+            serviceDesc:
+              "Enthusiasts who want to leverage modern tools and platforms in media.",
+          },
+          {
+            id: 3,
+            serviceTag: "Aspire to Lead",
+            serviceDesc:
+              "Those looking to shape narratives and influence opinions.",
+          },
+          {
+            id: 4,
+            serviceTag: "Value Creativity",
+            serviceDesc:
+              "Creative thinkers ready to explore innovative media solutions.",
+          },
+          {
+            id: 5,
+            serviceTag: "Desire a Global Career",
+            serviceDesc:
+              "Media professionals are in demand worldwide, offering opportunities across borders.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        contentMainHeading: `Practical Experiences beyond ClassRoom Teaching`,
+        contentMainDesc: `At VIMS, we believe learning goes beyond textbooks. Our Mass Media and Communication Course provides hands-on experiences to prepare you for real-world challenges:`,
+        contentMainDescLast: `These experiences ensure you graduate not only with theoretical knowledge but also with the confidence to apply your skills effectively.`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Internships",
+            serviceDesc:
+              "Work with leading media houses and agencies to gain industry exposure.",
+          },
+          {
+            id: 2,
+            serviceTag: "Workshops",
+            serviceDesc:
+              "Participate in skill-building sessions with industry veterans.",
+          },
+          {
+            id: 3,
+            serviceTag: "Live Projects",
+            serviceDesc:
+              "Collaborate on campaigns and projects for actual clients.",
+          },
+          {
+            id: 4,
+            serviceTag: "Field Trips",
+            serviceDesc:
+              "Visit studios, publishing houses, and production sets to observe professionals in action.",
+          },
+        ],
+      },
+      {
+        id: 5,
+        contentMainHeading: `Experienced Faculties`,
+        contentMainDesc: `Our faculty comprises seasoned professionals and academic experts who bring their real-world experiences into the classroom. Their dedication to your success is reflected in:`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Personalized Mentorship",
+            serviceDesc: "One-on-one guidance to help you achieve your goals.",
+          },
+          {
+            id: 2,
+            serviceTag: "Cutting-Edge Insights",
+            serviceDesc:
+              "Stay updated with the latest trends and technologies in media.",
+          },
+          {
+            id: 3,
+            serviceTag: "Collaborative Learning",
+            serviceDesc:
+              "Interactive sessions that encourage discussions and diverse perspectives.",
+          },
+        ],
+      },
+      {
+        id: 6,
+        contentMainHeading: `Why Choose VIMS for Mass Media and Communication?`,
+        contentMainDesc: ``,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "State-of-the-Art Infrastructure",
+            serviceDesc:
+              "Experience learning in a well-equipped campus with modern facilities.",
+          },
+          {
+            id: 2,
+            serviceTag: "Holistic Development",
+            serviceDesc: "Focus on both academic and personal growth.",
+          },
+          {
+            id: 3,
+            serviceTag: "Global Outlook",
+            serviceDesc:
+              "Access international opportunities through our robust alumni network.",
+          },
+          {
+            id: 4,
+            serviceTag: "Affordable Excellence",
+            serviceDesc: "Get the best education at competitive prices.",
+          },
+        ],
+      },
+    ],
+    FAQTitle: `FAQs About the Mass Media and Communication Course`,
+    FAQ: [
+      {
+        id: 1,
+        ques: "Q1. What is the focus of the Mass Media and Communication Course?",
+        ans: "This course is designed to provide a comprehensive understanding of media platforms such as print, television, radio, and digital media. It emphasizes communication strategies, content creation, and media management.",
+      },
+      {
+        id: 2,
+        ques: "Q2. What career opportunities can I explore after completing this course?",
+        ans: "Graduates can pursue careers in journalism, public relations, digital content creation, advertising, social media management, and more. The course equips you with skills for a variety of roles in the media industry.",
+      },
+      {
+        id: 3,
+        ques: "Q3. Does the course provide practical experience in the field?",
+        ans: "Yes, the Mass Media and Communication Course at VIMS offers hands-on learning through internships, live projects, workshops, and field trips to help students apply theoretical knowledge in real-world scenarios.",
+      },
+      {
+        id: 4,
+        ques: "Q4. Who should enroll in the Mass Media and Communication Course?",
+        ans: "The course is ideal for individuals passionate about storytelling, digital media, journalism, and public relations. If you’re creative, tech-savvy, and aspire to build a career in media, the Mass Media and Communication Course is for you.",
+      },
+      {
+        id: 5,
+        ques: "Q5. What makes VIMS a great choice for this course?",
+        ans: "Our institute provides a balanced curriculum, state-of-the-art facilities, experienced faculty, and practical exposure, ensuring a robust education in media and communication.",
+      },
+    ],
+    conclusion: `Conclusion: Take the First Step Towards Your Media Career`,
+    conclusionDesc: `Enrolling in the Mass Media and Communication Course at Verma Institute of Management Studies is not just an educational choice; it’s an investment in your future. Our unique blend of academic rigor, practical experiences, and expert mentorship equips you with the tools to succeed in the ever-evolving media landscape. Join VIMS today to start your journey as a confident, skilled, and socially responsible media professional.`,
+  },
+];

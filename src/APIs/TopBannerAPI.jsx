@@ -98,7 +98,7 @@ export const ProgramMassMediaData = [
   {
     id: 1,
     topdesc: ``,
-    img: `bg-[url('/Images/6.jpg')]`,
+    img: `bg-[url('/Images/mass-media-banner.jpeg')]`,
     titleclass: ``,
     title: `Mass Media and Communication Course | Practical Learning`,
     title2: ``,
