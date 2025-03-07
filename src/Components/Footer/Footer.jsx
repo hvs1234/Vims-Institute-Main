@@ -67,16 +67,16 @@ const Footer = () => {
               Program Offered
             </p>
             <p className="text-[1.8rem] font-normal text-[white]">
-              1. Diploma In Hotel Management
+              1. One Year Diploma In Hotel Management - VIMS
             </p>
             <p className="text-[1.8rem] font-normal text-[white]">
-              2. Diploma in Tourism Management
+              2. Diploma in Tourism Management - VIMS
             </p>
             <p className="text-[1.8rem] font-normal text-[white]">
-              3. Short Term Personality Development
+              3. Mass & Media Communication Course
             </p>
             <p className="text-[1.8rem] font-normal text-[white]">
-              4. Short Term Course in Mass Media
+              4. Personality Development Course
             </p>
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-center">
               <div className="flex items-center mt-[1rem]">
@@ -112,7 +112,7 @@ const Footer = () => {
         <div className="flex items-start justify-start gap-[1rem]">
           <p className="text-[1.8rem] font-normal text-[white]">
             &copy; 2024. Verma Institute Of Management Studies. All right
-            reserved. 
+            reserved.
             {/* IT Support By{" "}
             <a
               href="https://twomglobal.com"

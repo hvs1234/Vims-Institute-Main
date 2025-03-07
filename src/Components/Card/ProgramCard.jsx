@@ -27,7 +27,7 @@ const ProgramCard = ({ programCardData = [] }) => {
               </p>
               <div
                 className="w-[100%] grid grid-cols-4 mt-[4rem] gap-[2rem] justify-start max-md:grid-cols-2 
-          max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]"
+                max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]"
               >
                 {homepromotedata.map((e) => {
                   return (

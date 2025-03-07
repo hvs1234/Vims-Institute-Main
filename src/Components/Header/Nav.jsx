@@ -64,7 +64,7 @@ const Nav = () => {
                 </p>
                 <FaChevronDown className="text-[#414141] text-[1.4rem]" />
                 {dropdownOpen === item.id && (
-                  <div className="absolute top-[2rem] left-[-2rem] px-[1rem] py-[1rem] mt-2 w-[200px] bg-white shadow-md border">
+                  <div className="absolute top-[2rem] left-[-6rem] px-[1rem] py-[1rem] mt-2 w-[250px] bg-white shadow-md border">
                     {item.dropdown.map((subItem) => (
                       <Link
                         key={subItem.id}
