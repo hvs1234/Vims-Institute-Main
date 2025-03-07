@@ -7,6 +7,8 @@ export const ProgramDiplomaCardData = [
       {
         id: 1,
         contentMainHeading: `What You Will Learn in This Program`,
+        img: `/Images/5.jpg`,
+        applyNow: `yes`,
         contentMainDesc: `At VIMS, we believe in combining theoretical knowledge with hands-on practical training. Our one year diploma in hotel management covers a comprehensive curriculum designed to equip you with the tools needed to thrive in the competitive hospitality sector.`,
         subHeading1: `Core Modules:`,
         courseService1: [
@@ -91,6 +93,7 @@ export const ProgramDiplomaCardData = [
       {
         id: 2,
         contentMainHeading: `Career After Diploma in Hotel Management`,
+        img: `/Images/8.jpg`,
         contentMainDesc: `The hospitality industry is one of the fastest-growing sectors worldwide, offering a plethora of career opportunities. Upon completing the one year diploma in hotel management, you will be well-equipped to take on various roles in esteemed organizations.`,
         subHeading1: `Career Opportunities:`,
         courseService1: [
@@ -279,6 +282,7 @@ export const ProgramDiplomaCardData = [
       {
         id: 5,
         contentMainHeading: `Why Choose VIMS?`,
+        img: `/Images/13.jpg`,
         contentMainDesc: ``,
         subHeading1: `Holistic Education:`,
         courseService1: [
@@ -377,6 +381,8 @@ export const ProgramTourismCardData = [
       {
         id: 1,
         contentMainHeading: `What You Will Learn in This Program`,
+        img: `/Images/8.jpg`,
+        applyNow: `yes`,
         contentMainDesc: `The Diploma in Tourism Management offers a comprehensive curriculum combining academic theory with practical applications. Throughout this program, you will master essential concepts and gain in-demand skills that ensure a seamless transition into the professional world of tourism and hospitality.`,
         contentMainDescLast: `By the end of the program, you’ll possess a well-rounded skill set, enabling you to lead confidently in diverse roles within the tourism and hospitality sectors.`,
         subHeading1: `Key topics covered include:`,
@@ -428,6 +434,7 @@ export const ProgramTourismCardData = [
       {
         id: 2,
         contentMainHeading: `Career After Diploma in Tourism Management`,
+        img: `/Images/15.jpg`,
         contentMainDesc: `The global tourism industry is one of the fastest-growing sectors, contributing significantly to the economy. Pursuing a Diploma in Tourism Management opens doors to a wide range of rewarding career paths, including:`,
         subHeading1: ``,
         courseService1: [
@@ -567,6 +574,7 @@ export const ProgramTourismCardData = [
       {
         id: 5,
         contentMainHeading: `Why Choose Verma Institute of Management Studies (VIMS)?`,
+        img: `/Images/9.jpg`,
         contentMainDesc: ``,
         subHeading1: `At VIMS, we go beyond traditional education to prepare you for a future filled with opportunities:`,
         courseService1: [
@@ -650,6 +658,8 @@ export const ProgramMassMediaCardData = [
       {
         id: 1,
         contentMainHeading: `What You Learn in Mass Media and Communication Course`,
+        img: `/Images/13.jpg`,
+        applyNow: `yes`,
         contentMainDesc: `At VIMS, we offer a comprehensive curriculum designed to cover every aspect of mass media and communication. From the fundamentals to advanced industry practices, our course ensures you graduate with a deep understanding of the field. Here’s what you can expect to learn:`,
         subHeading1: ``,
         courseService1: [
@@ -694,6 +704,7 @@ export const ProgramMassMediaCardData = [
       {
         id: 2,
         contentMainHeading: `Career After Mass Media and Communication Course`,
+        img: `/Images/15.jpg`,
         contentMainDesc: `A Mass Media and Communication Course from VIMS unlocks countless career opportunities across industries. Whether you dream of becoming a journalist, PR specialist, or media strategist, this course provides the foundation for a successful career. Some potential career paths include:`,
         contentMainDescLast: `According to recent industry reports, the global media and communication market is expected to grow by 6% annually, creating an ever-expanding demand for skilled professionals.`,
         subHeading1: ``,
@@ -809,6 +820,7 @@ export const ProgramMassMediaCardData = [
       {
         id: 5,
         contentMainHeading: `Experienced Faculties`,
+        img: `/Images/8.jpg`,
         contentMainDesc: `Our faculty comprises seasoned professionals and academic experts who bring their real-world experiences into the classroom. Their dedication to your success is reflected in:`,
         subHeading1: ``,
         courseService1: [
@@ -834,6 +846,7 @@ export const ProgramMassMediaCardData = [
       {
         id: 6,
         contentMainHeading: `Why Choose VIMS for Mass Media and Communication?`,
+        img: `/Images/9.jpg`,
         contentMainDesc: ``,
         subHeading1: ``,
         courseService1: [
@@ -892,5 +905,231 @@ export const ProgramMassMediaCardData = [
     ],
     conclusion: `Conclusion: Take the First Step Towards Your Media Career`,
     conclusionDesc: `Enrolling in the Mass Media and Communication Course at Verma Institute of Management Studies is not just an educational choice; it’s an investment in your future. Our unique blend of academic rigor, practical experiences, and expert mentorship equips you with the tools to succeed in the ever-evolving media landscape. Join VIMS today to start your journey as a confident, skilled, and socially responsible media professional.`,
+  },
+];
+
+export const ProgramPersonalityCardData = [
+  {
+    id: 1,
+    titleMain: `Personality Development Course`,
+    descMain: `Welcome to the Verma Institute of Management Studies (VIMS), where we take pride in empowering individuals to become their best selves. Our Personality Development Course is meticulously designed to refine your personality, boost self-confidence, and prepare you for the challenges of a competitive world. At VIMS, we believe in creating future leaders by blending academic excellence, ethical values, and hands-on training. Whether you’re looking to enhance your communication skills, build a charismatic presence, or improve your interpersonal abilities, our program offers a transformative experience. Join us to unlock your potential and become a well-rounded professional ready to excel in your personal and professional life.`,
+    contentMain: [
+      {
+        id: 1,
+        contentMainHeading: `What You Learn in Personality Development Course`,
+        img: `/Images/5.jpg`,
+        applyNow: `yes`,
+        contentMainDesc: `At VIMS, our Personality Development Course curriculum is crafted to ensure holistic growth, focusing on essential skills that make you stand out. Here’s what you’ll learn:`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Effective Communication Skills",
+            serviceDesc:
+              "Learn the art of clear and impactful communication to express your thoughts confidently. Develop active listening skills and master verbal and non-verbal communication techniques.",
+          },
+          {
+            id: 2,
+            serviceTag: "Leadership and Team Building",
+            serviceDesc:
+              "Understand the qualities of effective leadership and teamwork. Gain hands-on experience in managing teams and motivating others to achieve common goals.",
+          },
+          {
+            id: 3,
+            serviceTag: "Confidence Building",
+            serviceDesc:
+              "Our activities and mentorship sessions are aimed at boosting your self-esteem, helping you overcome fear and hesitation in social and professional settings.",
+          },
+          {
+            id: 4,
+            serviceTag: "Time Management and Goal Setting",
+            serviceDesc:
+              "Master strategies to manage your time efficiently and set achievable goals, ensuring personal and professional success.",
+          },
+          {
+            id: 5,
+            serviceTag: "Emotional Intelligence (EI)",
+            serviceDesc:
+              "Enhance your ability to recognize and manage your emotions and develop empathy to build strong relationships.",
+          },
+          {
+            id: 6,
+            serviceTag: "Grooming and Etiquette",
+            serviceDesc:
+              "Learn professional grooming, personal hygiene, and social etiquette to create a lasting impression in any environment.",
+          },
+          {
+            id: 7,
+            serviceTag: "Problem-Solving and Decision-Making",
+            serviceDesc:
+              "Develop critical thinking abilities to analyze situations and make informed decisions with confidence.",
+          },
+          {
+            id: 8,
+            serviceTag: "Stress Management",
+            serviceDesc:
+              "Understand techniques to handle stress effectively and maintain a positive mindset in challenging situations.",
+          },
+        ],
+      },
+      {
+        id: 2,
+        contentMainHeading: `Career After Completing Personality Development Course`,
+        img: `/Images/8.jpg`,
+        contentMainDesc: `Investing in a Personality Development Course at VIMS opens doors to countless opportunities across industries. Here’s how the course can transform your career:`,
+        contentMainDescLast: `According to recent industry reports, the global media and communication market is expected to grow by 6% annually, creating an ever-expanding demand for skilled professionals.`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Enhanced Employability",
+            serviceDesc:
+              "Professionals with strong personalities are highly valued by employers. Our course equips you with soft skills and confidence to excel in interviews and workplace environments.",
+          },
+          {
+            id: 2,
+            serviceTag: "Accelerated Career Growth",
+            serviceDesc:
+              "Stand out in your organization with improved communication, leadership, and problem-solving skills, leading to faster promotions and recognition.",
+          },
+          {
+            id: 3,
+            serviceTag: "Successful Entrepreneurship",
+            serviceDesc:
+              "For aspiring entrepreneurs, the course provides essential interpersonal and management skills required to build and lead successful ventures.",
+          },
+          {
+            id: 4,
+            serviceTag: "Thriving in Customer-Centric Roles",
+            serviceDesc:
+              "Whether you’re in sales, marketing, or hospitality, a refined personality helps you connect better with clients, enhancing customer satisfaction and loyalty.",
+          },
+          {
+            id: 5,
+            serviceTag: "Personal Growth and Networking",
+            serviceDesc:
+              "A polished personality not only boosts your confidence but also helps you build meaningful relationships and a strong professional network.",
+          },
+        ],
+      },
+      {
+        id: 3,
+        contentMainHeading: `Who Should Enroll in the Program`,
+        contentMainDesc: `Our Personality Development Course is ideal for individuals from all walks of life. If you resonate with any of the following, this program is perfect for you:`,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Students",
+            serviceDesc:
+              "Build a strong foundation for your academic and professional journey.",
+          },
+          {
+            id: 2,
+            serviceTag: "Job Seekers",
+            serviceDesc:
+              "Gain the confidence to ace interviews and secure your dream job.",
+          },
+          {
+            id: 3,
+            serviceTag: "Working Professionals",
+            serviceDesc:
+              "Enhance your leadership and communication skills for accelerated career growth.",
+          },
+          {
+            id: 4,
+            serviceTag: "Aspiring Entrepreneurs",
+            serviceDesc:
+              "Develop the charisma and interpersonal skills needed to lead and inspire teams.",
+          },
+          {
+            id: 5,
+            serviceTag: "Individuals Seeking Personal Growth",
+            serviceDesc:
+              "Unlock your full potential and improve your overall quality of life.",
+          },
+        ],
+      },
+      {
+        id: 4,
+        contentMainHeading: `Why Choose VIMS for Personality Development?`,
+        img: `/Images/9.jpg`,
+        contentMainDesc: `At VIMS, we believe learning goes beyond textbooks. Our Mass Media and Communication Course provides hands-on experiences to prepare you for real-world challenges:`,
+        contentMainDescLast: ``,
+        subHeading1: ``,
+        courseService1: [
+          {
+            id: 1,
+            serviceTag: "Expert Faculty",
+            serviceDesc:
+              "Learn from experienced mentors who bring real-world insights to the classroom.",
+          },
+          {
+            id: 2,
+            serviceTag: "Customized Curriculum",
+            serviceDesc:
+              "Our program is tailored to meet the unique needs of every individual.",
+          },
+          {
+            id: 3,
+            serviceTag: "Interactive Learning",
+            serviceDesc:
+              "Engage in workshops, role-plays, and group discussions for practical exposure.",
+          },
+          {
+            id: 4,
+            serviceTag: "State-of-the-Art Facilities",
+            serviceDesc:
+              "Benefit from a world-class learning environment equipped with modern amenities.",
+          },
+          {
+            id: 5,
+            serviceTag: "Lifetime Support",
+            serviceDesc:
+              "Join our robust alumni network and gain access to continuous learning and career opportunities.",
+          },
+        ],
+      },
+    ],
+    FAQTitle: `FAQs About Our Personality Development Course`,
+    FAQ: [
+      {
+        id: 1,
+        ques: "Q1. What is a Personality Development Course, and why is it important?",
+        ans: "A Personality Development Course is a structured program designed to enhance your personal and professional attributes, such as communication skills, confidence, and emotional intelligence. It is important because it helps you stand out in competitive environments and prepares you for success in various life aspects.",
+      },
+      {
+        id: 2,
+        ques: "Q2. How will the Personality Development Course at VIMS benefit me?",
+        ans: "At VIMS, our Personality Development Course focuses on holistic growth. You will gain critical skills like effective communication, leadership, and time management, ensuring you’re equipped to handle challenges in both personal and professional spheres.",
+      },
+      {
+        id: 3,
+        ques: "Q3. Is this course suitable for students?",
+        ans: "Absolutely! The Personality Development Course is ideal for students looking to build a strong foundation for their future. It boosts confidence, refines soft skills, and prepares them to face interviews and other academic challenges.",
+      },
+      {
+        id: 4,
+        ques: "Q4. Can this course help me in my career?",
+        ans: "Yes, the Personality Development Course at VIMS enhances employability by refining essential skills such as communication, leadership, and problem-solving. It prepares you for interviews and gives you an edge in the workplace.",
+      },
+      {
+        id: 5,
+        ques: "Q5. Are there any prerequisites for enrolling in this course?",
+        ans: "There are no specific prerequisites. Our Personality Development Course is open to students, job seekers, professionals, entrepreneurs, and anyone seeking personal growth.",
+      },
+      {
+        id: 6,
+        ques: "Q6. What makes VIMS’ Personality Development Course unique?",
+        ans: "At VIMS, we combine academic excellence with practical training. Our experienced mentors, interactive workshops, and state-of-the-art facilities ensure you receive a well-rounded learning experience that prepares you for real-world success.",
+      },
+      {
+        id: 7,
+        ques: "Q7. How do I enroll in the Personality Development Course at VIMS?",
+        ans: "Enrolling is easy! Contact us at [Contact Details], visit our campus, or fill out the online application form on our website. Begin your journey of transformation today with VIMS’ Personality Development Course.",
+      },
+    ],
+    conclusion: `Conclusion`,
+    conclusionDesc: `At the Verma Institute of Management Studies, we are committed to shaping confident, capable, and compassionate individuals ready to excel in every aspect of life. Our Personality Development Course is more than just a program—it’s a journey of self-discovery and transformation. Take the first step towards unlocking your potential and achieving your goals. Enroll today and experience the difference that VIMS can make in your life`,
   },
 ];

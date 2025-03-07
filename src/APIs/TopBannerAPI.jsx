@@ -109,3 +109,19 @@ export const ProgramMassMediaData = [
     to: `/`,
   },
 ];
+
+export const ProgramPersonalityData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/mass-media-banner.jpeg')]`,
+    titleclass: ``,
+    title: `Personality Development Course In Dehradun | Learn Online/Offline`,
+    title2: ``,
+    para: `Our Personality Development Course is meticulously designed to refine your personality, boost self-confidence, and prepare you for the challenges of a competitive world`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];

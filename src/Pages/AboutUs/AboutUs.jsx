@@ -10,12 +10,20 @@ import Footer from "../../Components/Footer/Footer";
 import AboutVims from "./AboutVims";
 import HomeAbout from "../Home/HomeAbout";
 import AboutMember from "./AboutMember";
+import { Helmet } from "react-helmet-async";
 
 const AboutUs = () => {
   const { aboutusbannerdata, twocolsaboutdata } = Handlers();
 
   return (
     <>
+      <Helmet>
+        <title>About us - Verma Institute Of Management Studies</title>
+        <meta
+          name="description"
+          content="Study hospitality in Dehradun with VIMS! Gain hands-on training, internships & global exposure. Learn from industry experts. Apply now!"
+        />
+      </Helmet>
       <Header />
       <TopBanner bannerdata={aboutusbannerdata} />
       <AboutMain />
