@@ -66,18 +66,18 @@ const Footer = () => {
             <p className="text-[2rem] font-normal text-[white]">
               Program Offered
             </p>
-            <p className="text-[1.8rem] font-normal text-[white]">
+            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
               1. Diploma In Hotel Management
-            </p>
-            <p className="text-[1.8rem] font-normal text-[white]">
+            </Link>
+            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
               2. Diploma in Tourism Management
-            </p>
-            <p className="text-[1.8rem] font-normal text-[white]">
+            </Link>
+            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
               3. Short Term Personality Development
-            </p>
-            <p className="text-[1.8rem] font-normal text-[white]">
+            </Link>
+            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
               4. Short Term Course in Mass Media
-            </p>
+            </Link>
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-center">
               <div className="flex items-center mt-[1rem]">
                 <Link

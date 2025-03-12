@@ -54,7 +54,7 @@ export const ContactBannerData = [
     titleclass: `hidden`,
     title: `Get in Touch with VIMS - Reach Out Today!`,
     title2: `Hotel Management`,
-    para: `Contact Information: Toll Free No. :  xxx, Landline No. : xxxx , Fax : xxxxx,`,
+    para: `Contact Information: Toll Free No. +91-7466899901: , Landline No. +91-7466899902: , Fax : +91-tel:7466899901/+91-7466899902,`,
     btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
     duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
     btnText: `Read More`,
