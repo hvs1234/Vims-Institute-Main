@@ -17,7 +17,7 @@ const HomeProgram = () => {
       >
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#171d5a] opacity-[0.4]"></div>
         <div
-          className="grid grid-cols-3 gap-[2rem] w-[100%] justify-center items-center text-center 
+          className="grid grid-cols-2 gap-[2rem] w-[100%] justify-center items-center text-center 
           transition-all duration-[0.4s] ease-linear relative h-[100%] max-lg:grid-cols-1"
         >
           <div
@@ -97,6 +97,35 @@ const HomeProgram = () => {
                 <Link
                   to={"/program/massMedia"}
                   onClick={handleOnClick("/program/massMedia")}
+                  className="bg-transparent px-[2rem] py-[1rem] 
+                  rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] 
+                  transition-all duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black]"
+                >
+                  Read More
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div
+            className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/13.jpg')] 
+            bg-no-repeat bg-center bg-cover"
+          >
+            <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
+            <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
+              <h2 className="text-[2.5rem] text-[white] uppercase">
+                DIPLOMA IN PERSONALITY DEVELOPMENT
+              </h2>
+              <p className="text-[1.6rem] font-normal text-center text-[white]">
+                Our Personality Development Course is meticulously designed to
+                refine your personality, boost self-confidence, and prepare you
+                for the challenges of a competitive world. At VIMS, we believe
+                in creating future leaders by blending academic excellence,
+                ethical values, and hands-on training.
+              </p>
+              <div className="flex items-center">
+                <Link
+                  to={"/program/personality"}
+                  onClick={handleOnClick("/program/personality")}
                   className="bg-transparent px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] 
                   transition-all duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black]"

@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { HiMenu } from "react-icons/hi";
 import Handlers from "../../Services/Handlers";
-import logo from "/Images/logo.png";
+import logo from "/Images/logo-affidavit.png";
 import { NavLinkData } from "../../APIs/NavAPI";
 import "./Nav.css";
 import { FaChevronDown } from "react-icons/fa";
@@ -41,13 +41,9 @@ const Nav = () => {
       <Link
         to="/"
         onClick={handleOnClick("/")}
-        className="hidden max-[1200px]:flex"
+        className="hidden max-[1200px]:flex max-[1200px]:items-center max-[1200px]:justify-start w-full"
       >
-        <img
-          src={logo}
-          alt="logo"
-          className="w-[40%] max-xl:w-[20%] max-md:w-[40%] max-[500px]:w-[50%]"
-        />
+        <img src={logo} alt="logo" className="w-[50%] object-cover max-lg:w-[60%] max-sm:w-[80%] h-full" />
       </Link>
       <nav className="navbar flex items-center justify-center gap-[1rem] max-[1200px]:min-h-screen max-[1200px]:mt-[4rem]">
         <ul className="flex items-center gap-[4rem]">
@@ -64,7 +60,7 @@ const Nav = () => {
                 </p>
                 <FaChevronDown className="text-[#414141] text-[1.4rem]" />
                 {dropdownOpen === item.id && (
-                  <div className="absolute top-[2rem] left-[-2rem] px-[1rem] py-[1rem] mt-2 w-[200px] bg-white shadow-md border">
+                  <div className="absolute top-[2rem] left-[-6rem] px-[1rem] py-[1rem] mt-2 w-[250px] bg-white shadow-md border">
                     {item.dropdown.map((subItem) => (
                       <Link
                         key={subItem.id}

@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 // import React from 'react'
 
+import { Helmet } from "react-helmet-async";
 import Footer from "../../Components/Footer/Footer";
 import ScrollTop from "../../Components/Footer/ScrollTop";
 import Handlers from "../../Services/Handlers";
@@ -16,10 +17,20 @@ import HomeTour from "./HomeTour";
 import HomeValues from "./HomeValues";
 
 const Home = () => {
-  const { twocolshomeaboutdata } = Handlers();  
+  const { twocolshomeaboutdata } = Handlers();
 
   return (
     <>
+      <Helmet>
+        <title>
+          Verma Institute Of Management Studies - Best Hotel Management
+          Institute in Dehradun
+        </title>
+        <meta
+          name="description"
+          content="Join Verma Institute of Management Studies & excel in hospitality with expert training, global exposure & world-class facilities. Apply now!"
+        />
+      </Helmet>
       <Hero />
       <HomePromote />
       <HomeAbout twocolsdata={twocolshomeaboutdata} />

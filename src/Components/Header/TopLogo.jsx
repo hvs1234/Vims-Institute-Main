@@ -1,6 +1,6 @@
 // import React from 'react'
 import { Link } from "react-router-dom";
-import logo from "/Images/logo.png";
+import logo from "/Images/logo-affidavit.png";
 import Handlers from "../../Services/Handlers";
 
 const TopLogo = () => {
@@ -15,12 +15,12 @@ const TopLogo = () => {
         <Link
           to={"/"}
           onClick={handleOnClick("/")}
-          className="flex items-center justify-start w-[100%] max-[1200px]:hidden"
+          className="flex items-center justify-start w-full max-[1200px]:hidden"
         >
           <img
             src={logo}
             alt="logo"
-            className="w-[40%] max-lg:w-[60%] max-md:w-[40%] max-[500px]:w-[60%]"
+            className="w-[80%] h-full object-cover"
           />
         </Link>
         <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-start max-sm:flex-col max-sm:justify-start max-sm:items-start">

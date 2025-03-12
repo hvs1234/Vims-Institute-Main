@@ -11,12 +11,20 @@ import ProgramTips from "./ProgramTips";
 import ProgramAdmission from "./ProgramAdmission";
 import ProgramForm from "./ProgramForm";
 import ProgramCourseMain from "./ProgramCourseMain";
+import { Helmet } from "react-helmet-async";
 
 const Program = () => {
   const { programbannerdata } = Handlers();
 
   return (
     <>
+      <Helmet>
+        <title>VIMS Diploma in Hotel, Tourist & Mass Communication</title>
+        <meta
+          name="description"
+          content="Enroll in VIMS Diploma in Hotel, Tourism & Mass Communication. Gain hands-on training & expert guidance for a thriving hospitality career!"
+        />
+      </Helmet>
       <Header />
       <TopBanner bannerdata={programbannerdata} />
       <ProgramCourse />

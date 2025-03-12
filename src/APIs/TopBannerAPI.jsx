@@ -54,7 +54,7 @@ export const ContactBannerData = [
     titleclass: `hidden`,
     title: `Get in Touch with VIMS - Reach Out Today!`,
     title2: `Hotel Management`,
-    para: `Contact Information: Toll Free No. +91-7466899901: , Landline No. +91-7466899902: , Fax : +91-tel:7466899901/+91-7466899902,`,
+    para: `Contact Information: Toll Free No:. +91-7466899901, Landline No: +91-7466899902, Fax: +91-7466899901/+91-7466899902`,
     btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
     duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
     btnText: `Read More`,
@@ -103,6 +103,22 @@ export const ProgramMassMediaData = [
     title: `Mass Media and Communication Course | Practical Learning`,
     title2: ``,
     para: `Enroll in our Mass Media and Communication Course to gain hands-on experience, industry exposure, and practical knowledge for a successful career`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];
+
+export const ProgramPersonalityData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/mass-media-banner.jpeg')]`,
+    titleclass: ``,
+    title: `Personality Development Course In Dehradun | Learn Online/Offline`,
+    title2: ``,
+    para: `Our Personality Development Course is meticulously designed to refine your personality, boost self-confidence, and prepare you for the challenges of a competitive world`,
     btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
     duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
     btnText: `Read More`,

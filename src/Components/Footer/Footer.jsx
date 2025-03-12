@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
 import logo from "/Images/logo.png";
-import Handlers from "../../Services/Handlers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
-  const { handleOnClick } = Handlers();
+  const handleOnClick = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <>
@@ -66,24 +67,39 @@ const Footer = () => {
             <p className="text-[2rem] font-normal text-[white]">
               Program Offered
             </p>
-            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
+            <Link
+              to={"/program/diploma"}
+              onClick={handleOnClick}
+              className="text-[1.8rem] font-normal text-[white]"
+            >
               1. Diploma In Hotel Management
             </Link>
-            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
+            <Link
+              to={"/program/tourism"}
+              onClick={handleOnClick}
+              className="text-[1.8rem] font-normal text-[white]"
+            >
               2. Diploma in Tourism Management
             </Link>
-            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
-              3. Short Term Personality Development
+            <Link
+              to={"/program/massMedia"}
+              onClick={handleOnClick}
+              className="text-[1.8rem] font-normal text-[white]"
+            >
+              3. Short Term Course in Mass Media
             </Link>
-            <Link to={'/program/programDiploma'} className="text-[1.8rem] font-normal text-[white]">
-              4. Short Term Course in Mass Media
+            <Link
+              to={"/program/personality"}
+              onClick={handleOnClick}
+              className="text-[1.8rem] font-normal text-[white]"
+            >
+              4. Short Term Personality Development
             </Link>
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-center">
               <div className="flex items-center mt-[1rem]">
                 <Link
                   to={"/admission"}
-                  onClick={handleOnClick("/admission")}
-                  target="_blank"
+                  onClick={handleOnClick}
                   className="bg-[crimson] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
                 >
@@ -112,7 +128,7 @@ const Footer = () => {
         <div className="flex items-start justify-start gap-[1rem]">
           <p className="text-[1.8rem] font-normal text-[white]">
             &copy; 2024. Verma Institute Of Management Studies. All right
-            reserved. 
+            reserved.
             {/* IT Support By{" "}
             <a
               href="https://twomglobal.com"

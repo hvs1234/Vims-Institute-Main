@@ -1,9 +1,14 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import Handlers from "../../Services/Handlers";
+import HomeTour from "../../Pages/Home/HomeTour";
+import HomePromote from "../../Pages/Home/HomePromote";
 
 const ProgramCard = ({ programCardData = [] }) => {
   const [openIndex, setOpenIndex] = useState(null);
+  const { handleOnClick, homepromotedata } = Handlers();
 
   return (
     <>
@@ -20,6 +25,30 @@ const ProgramCard = ({ programCardData = [] }) => {
               <p className="text-[2rem] font-normal text-[#414141]">
                 {eleMain.descMain}
               </p>
+              <div
+                className="w-[100%] grid grid-cols-4 mt-[4rem] gap-[2rem] justify-start max-md:grid-cols-2 
+                max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]"
+              >
+                {homepromotedata.map((e) => {
+                  return (
+                    <div
+                      key={e.id}
+                      className="flex flex-col gap-[1rem] justify-center items-center text-center w-[100%] h-[100%]"
+                    >
+                      {/* <p className="text-[2rem] font-normal">{e.name}</p> */}
+                      <div className="flex items-center justify-center w-[100%] h-[100%]">
+                        <img
+                          src={e.img}
+                          alt="img"
+                          className={`w-[70%] ${
+                            e.id === 4 ? "w-[500px]" : "w-[70%]"
+                          }`}
+                        />
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
             </div>
             <div
               className={`relative mt-[-2rem] grid grid-cols-1 gap-[2rem] w-full justify-center`}
@@ -78,6 +107,15 @@ const ProgramCard = ({ programCardData = [] }) => {
                         </div>
                       );
                     })}
+                    {subeleMain?.img ? (
+                      <div className="flex items-center justify-center w-auto h-auto">
+                        <img
+                          src={subeleMain?.img}
+                          alt="img"
+                          className="w-full h-full object-cover rounded-xl"
+                        />
+                      </div>
+                    ) : null}
                     {subeleMain?.paraLast ? (
                       <p className="text-[2rem] font-normal text-[#212121]">
                         {subeleMain.contentMainDescLast}
@@ -226,6 +264,18 @@ const ProgramCard = ({ programCardData = [] }) => {
                         </div>
                       );
                     })}
+                    {subeleMain?.applyNow ? (
+                      <div className="flex items-center mb-[-2rem] w-[100%]">
+                        <Link
+                          to={"/admission"}
+                          onClick={handleOnClick("/admission")}
+                          className="bg-[#263169] capitalize px-[2rem] py-[1rem] text-[white] font-normal text-[1.8rem] 
+                          rounded-sm transition-all duration-[0.2s] ease-linear hover:opacity-[0.9]"
+                        >
+                          Apply Now
+                        </Link>
+                      </div>
+                    ) : null}
                   </div>
                 );
               })}
@@ -270,6 +320,7 @@ const ProgramCard = ({ programCardData = [] }) => {
                 </div>
               ))}
             </div>
+            <HomeTour />
             <div className="mt-[2rem] w-full flex flex-col gap-[1rem]">
               <h2 className="text-[3rem] font-normal text-[#212121]">
                 {eleMain.conclusion && (
@@ -280,6 +331,16 @@ const ProgramCard = ({ programCardData = [] }) => {
               <p className="text-[2rem] font-normal text-[#414141]">
                 {eleMain.conclusionDesc}
               </p>
+            </div>
+            <div className="flex items-center mb-[-2rem] w-[100%]">
+              <Link
+                to={"/admission"}
+                onClick={handleOnClick("/admission")}
+                className="bg-[#263169] capitalize px-[2rem] py-[1rem] text-[white] font-normal text-[1.8rem] 
+                          rounded-sm transition-all duration-[0.2s] ease-linear hover:opacity-[0.9]"
+              >
+                Apply Now
+              </Link>
             </div>
           </div>
         );
