@@ -114,7 +114,7 @@ export const ProgramPersonalityData = [
   {
     id: 1,
     topdesc: ``,
-    img: `bg-[url('/Images/mass-media-banner.jpeg')]`,
+    img: `bg-[url('/Images/personality-banner.webp')]`,
     titleclass: ``,
     title: `Personality Development Course In Dehradun | Learn Online/Offline`,
     title2: ``,

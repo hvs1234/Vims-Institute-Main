@@ -101,13 +101,13 @@ const ProgramCourseMain = () => {
           </div>
         </div>
         <div
-          className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/13.jpg')] 
+          className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/15.jpg')] 
             bg-no-repeat bg-center bg-cover"
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-center items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
             <h2 className="text-[2.5rem] text-[white] uppercase">
-              DIPLOMA IN PERSONALITY DEVELOPMENT
+              SHORT TERM COURSE IN PERSONALITY DEVELOPMENT
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
               Our Personality Development Course is meticulously designed to

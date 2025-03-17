@@ -37,7 +37,7 @@ const Footer = () => {
                 Uttarakhand India
               </p>
               <p className="text-[1.8rem] font-normal text-[white]">
-                <i className="fa-solid fa-phone"></i>&nbsp; For Admission Call-{" "}
+                <i className="fa-solid fa-phone"></i>&nbsp; For Admission-{" "}
                 <a href="tel:7466899901" className="hover:opacity-[0.8]">
                   +91-7466899901
                 </a>{" "}

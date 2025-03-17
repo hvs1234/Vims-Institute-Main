@@ -44,7 +44,7 @@ const TopLogo = () => {
             </p>
             <p className="text-[1.4rem] text-[#212121] font-normal">
               <span className="text-[#212121] font-semibold">
-                For Admission Call
+                For Admission
               </span>
               : <a href="tel:7466899902">+91-7466899902</a>
             </p>
