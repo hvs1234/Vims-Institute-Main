@@ -127,8 +127,15 @@ const Footer = () => {
       >
         <div className="flex items-start justify-start gap-[1rem]">
           <p className="text-[1.8rem] font-normal text-[white]">
-            &copy; 2024. Verma Institute Of Management Studies. All right
-            reserved.
+            &copy; 2024. Verma Institute Of Management Studies |{" "}
+            <a
+              href="https://www.termsfeed.com/live/037f6be3-d384-4780-ab68-1c0e6771d37c"
+              className="text-[1.8rem] font-normal text-[wheat] hover:opacity-[0.8]"
+              target="_blank"
+            >
+              Privacy Policy
+            </a>{" "}
+            | All right reserved.
             {/* IT Support By{" "}
             <a
               href="https://twomglobal.com"
