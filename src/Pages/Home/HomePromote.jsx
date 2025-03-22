@@ -27,7 +27,9 @@ const HomePromote = () => {
                   <img
                     src={e.img}
                     alt="img"
-                    className={`w-[300px] object-contain`}
+                    className={`w-[250px] object-contain max-md:w-full max-[400px]:w-[200px] ${
+                      e.id === 3 ? "w-[350px] max-[400px]:w-[300px]" : ""
+                    }`}
                   />
                 </div>
               </div>

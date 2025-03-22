@@ -15,11 +15,11 @@ const HomeFuture = () => {
             <h2 className="text-[3rem] font-normal capitalize">
               CRAFTING A FUTURE OF SUCCESS
             </h2>
-            <p className="text-[1.8rem] font-normal">
+            <p className="text-[1.8rem] font-normal text-justify">
               Welcome to Verma Institute of Management Studies, where passion
               meets opportunity in the vibrant world of hospitality!
             </p>
-            <p className="text-[1.8rem] font-normal">
+            <p className="text-[1.8rem] font-normal text-justify">
               At VIMS, we take pride in offering meticulously designed
               programmes that combine academic excellence with hands-on
               training, preparing you for the multifaceted demands of the global
@@ -29,7 +29,7 @@ const HomeFuture = () => {
               you acquire the skills and confidence needed to thrive in
               real-world settings.
             </p>
-            <p className="text-[1.8rem] font-normal">
+            <p className="text-[1.8rem] font-normal text-justify">
               With a focus on holistic development, VIMS bridges the gap between
               theory and practice, empowering students to achieve unparalleled
               professional growth. Our global partnerships and robust alumni
@@ -37,7 +37,7 @@ const HomeFuture = () => {
               launchpad for aspiring hospitality leaders who aim to make their
               mark on a global stage.
             </p>
-            <div className="flex items-center mt-[1rem]">
+            <div className="flex items-center mt-[1rem] max-xl:justify-center">
               <Link
                 to={"/aboutus"}
                 onClick={handleOnClick("/aboutus")}

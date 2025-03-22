@@ -11,7 +11,7 @@ const HomeGreet = () => {
         >
           <div className="flex flex-col gap-[2rem]">
             <h2 className="text-[3rem] font-normal text-[white] text-center">
-              Founder`s Message
+              {"Founder's Message"}
             </h2>
             <p className="text-[1.8rem] font-normal text-[white]">
               Welcome to Verma Institute of Management Studies, Uttarakhand! It
@@ -49,7 +49,7 @@ const HomeGreet = () => {
         >
           <div className="flex flex-col gap-[2rem]">
             <h2 className="text-[3rem] font-normal text-[white] text-center">
-              Chairman`s Message
+              {"Chairman's Message"}
             </h2>
             <p className="text-[1.8rem] font-normal text-[white]">
               Welcome, all! It is both an honour and a privilege to welcome you
@@ -87,7 +87,7 @@ const HomeGreet = () => {
         >
           <div className="flex flex-col gap-[2rem]">
             <h2 className="text-[3rem] font-normal text-[white] text-center">
-              Director`s Message
+              {"Director's Message"}
             </h2>
             <p className="text-[1.8rem] font-normal text-[white]">
               The hospitality industry is a world of endless

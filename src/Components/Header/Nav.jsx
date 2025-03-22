@@ -43,7 +43,11 @@ const Nav = () => {
         onClick={handleOnClick("/")}
         className="hidden max-[1200px]:flex max-[1200px]:items-center max-[1200px]:justify-start w-full"
       >
-        <img src={logo} alt="logo" className="w-[50%] object-cover max-lg:w-[60%] max-sm:w-[100%] h-full" />
+        <img
+          src={logo}
+          alt="logo"
+          className="w-[50%] object-cover max-lg:w-[60%] max-sm:w-[100%] h-full"
+        />
       </Link>
       <nav className="navbar flex items-center justify-center gap-[1rem] max-[1200px]:min-h-screen max-[1200px]:mt-[4rem]">
         <ul className="flex items-center gap-[4rem]">
@@ -60,13 +64,16 @@ const Nav = () => {
                 </p>
                 <FaChevronDown className="text-[#414141] text-[1.4rem]" />
                 {dropdownOpen === item.id && (
-                  <div className="absolute top-[2rem] left-[-6rem] px-[1rem] py-[1rem] mt-2 w-[250px] bg-white shadow-md border">
+                  <div className="absolute top-[2rem] left-[-6rem] max-[1200px]:left-[-8rem] max-sm:left-[-8rem] px-[1rem] py-[1rem] mt-2 w-[250px] bg-white shadow-md border">
                     {item.dropdown.map((subItem) => (
                       <Link
                         key={subItem.id}
                         to={subItem.to}
                         className="block px-4 py-2 text-[1.6rem] text-[#414141] hover:bg-gray-200"
-                        onClick={handleDropdownClose}
+                        onClick={() => {
+                          window.scrollTo(0, 0);
+                          handleDropdownClose();
+                        }}
                       >
                         {subItem.name}
                       </Link>

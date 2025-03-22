@@ -33,7 +33,7 @@ const TopLogo = () => {
               Apply Now
             </Link>
           </div>
-          <div className="flex flex-col max-xl:flex-row max-xl:gap-[1rem] items-start gap-[0.2rem] justify-start w-[auto] max-[390px]:flex-col max-sm:items-start max-sm:gap-[1rem]">
+          <div className="flex flex-col max-xl:flex-row max-xl:gap-[1rem] items-start gap-[0.2rem] justify-start w-[auto] max-sm:flex-col max-sm:items-start max-sm:gap-[1rem]">
             <p className="text-[1.4rem] text-[#212121] font-normal">
               <span className="text-[#212121] font-semibold">Contact us</span>:{" "}
               <a href="tel:7466899901">+91-7466899901</a>

@@ -25,30 +25,6 @@ const ProgramCard = ({ programCardData = [] }) => {
               <p className="text-[2rem] font-normal text-[#414141]">
                 {eleMain.descMain}
               </p>
-              <div
-                className="w-[100%] grid grid-cols-4 mt-[4rem] gap-[2rem] justify-start max-md:grid-cols-2 
-                max-[400px]:grid-cols-1 max-[400px]:gap-[4rem]"
-              >
-                {homepromotedata.map((e) => {
-                  return (
-                    <div
-                      key={e.id}
-                      className="flex flex-col gap-[1rem] justify-center items-center text-center w-[100%] h-[100%]"
-                    >
-                      {/* <p className="text-[2rem] font-normal">{e.name}</p> */}
-                      <div className="flex items-center justify-center w-[100%] h-[100%]">
-                        <img
-                          src={e.img}
-                          alt="img"
-                          className={`w-[70%] ${
-                            e.id === 4 ? "w-[500px]" : "w-[70%]"
-                          }`}
-                        />
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
             </div>
             <div
               className={`relative mt-[-2rem] grid grid-cols-1 gap-[2rem] w-full justify-center`}

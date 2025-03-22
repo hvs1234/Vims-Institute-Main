@@ -12,8 +12,7 @@ const Hero = () => {
     <>
       <Header />
       <div
-        className={`mt-[15rem] py-[15rem] px-[40rem] w-[100%] relative object-cover h-[100%] transition-all duration-[0.4s] ease-linear  
-        bg-no-repeat bg-center bg-cover max-2xl:px-[20rem] max-xl:px-[10rem] max-md:px-[3rem]`}
+        className={`mt-[15rem] py-[15rem] px-[40rem] w-[100%] relative object-cover h-[100%] transition-all duration-[0.4s] ease-linear bg-no-repeat bg-center bg-cover max-2xl:px-[20rem] max-xl:px-[10rem] max-md:px-[3rem]`}
       >
         <video
           className="absolute top-0 left-0 w-full h-full object-cover transition-all duration-[0.4s] ease-linear"
@@ -23,11 +22,12 @@ const Hero = () => {
           muted
         ></video>
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[black] opacity-[0.8]"></div>
-        <div className="relative w-[100%] h-full flex flex-col gap-[1rem] justify-center items-center text-center max-w-[100%] max-[400px]:max-w-[90%]">
-          <p className="text-[5rem] text-[white] font-normal max-md:text-[2.2rem] uppercase">
+        <div className="relative w-[100%] h-full flex flex-col gap-[1rem] justify-center items-center text-center 
+        max-[400px]:max-w-[100%]">
+          <p className="text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem] uppercase px-[1rem]">
             Verma Institute Of Management Studies
           </p>
-          <h1 className="text-[3rem] text-[white] font-medium max-xl:text-[4rem] max-md:text-[3rem] max-w-[80%] max-sm:max-w-[100%]">
+          <h1 className="text-[3rem] text-[white] font-medium max-md:text-[2.5rem] max-w-[100%] max-sm:max-w-[100%]">
             Best Hotel Management Institute in Dehradun
           </h1>
           <p className="text-[2.5rem] text-[white] font-normal max-sm:text-[2rem]">
