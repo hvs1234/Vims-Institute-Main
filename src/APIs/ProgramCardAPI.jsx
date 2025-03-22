@@ -282,7 +282,7 @@ export const ProgramDiplomaCardData = [
       {
         id: 5,
         contentMainHeading: `Why Choose VIMS?`,
-        img: `/Images/13.jpg`,
+        img: `/Images/17.jpeg`,
         contentMainDesc: ``,
         subHeading1: `Holistic Education:`,
         courseService1: [
@@ -574,7 +574,7 @@ export const ProgramTourismCardData = [
       {
         id: 5,
         contentMainHeading: `Why Choose Verma Institute of Management Studies (VIMS)?`,
-        img: `/Images/9.jpg`,
+        img: `/Images/18.jpeg`,
         contentMainDesc: ``,
         subHeading1: `At VIMS, we go beyond traditional education to prepare you for a future filled with opportunities:`,
         courseService1: [

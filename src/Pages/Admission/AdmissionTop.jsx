@@ -12,24 +12,23 @@ const AdmissionTop = () => {
   return (
     <>
       <div
-        className="section-main py-[6rem] px-[20rem] w-[100%] h-[100%] relative object-cover bg-[url('/Images/About/1.jpg')] 
-        bg-no-repeat bg-center bg-cover max-xl:px-[5rem] max-md:px-[3rem]"
+        className="mt-[15rem] py-[6rem] px-[20rem] w-[100%] h-[100%] relative object-cover bg-[url('/Images/About/1.jpg')] 
+        bg-no-repeat bg-center bg-cover max-xl:px-[5rem] max-lg:mt-[15rem] max-md:px-[3rem]"
       >
         <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[black] opacity-[0.5]"></div>
         <div className="relative grid grid-cols-2 justify-center gap-[4rem] w-[100%] max-lg:grid-cols-1">
-          <div className="flex flex-col justify-center w-[100%] gap-[1rem]">
+          <div className="flex flex-col justify-center max-lg:items-center max-lg:text-center w-[100%] gap-[1rem]">
             {/* <p className="text-[2.5rem] text-[white] font-normal">
               Our Admission
             </p> */}
             <h1 className="text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem]">
-              Get admission in Hotel Management, Tourism & Mass Communication -
-              VIMS
+              Get Admission in Hotel Management, Tourism & Other Short Term Courses
             </h1>
-            <p className="text-[2rem] text-[white] font-normal">
+            {/* <p className="text-[2rem] text-[white] font-normal">
               Join VIMS for a Diploma in Hotel, Tourism & Mass Communication.
               Gain expert training, scholarships & global career opportunities.
               Apply now!
-            </p>
+            </p> */}
             <div className="flex items-center justify-start text-center mt-[2rem] w-[auto]">
               <Link
                 to={"/program"}

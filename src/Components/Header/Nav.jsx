@@ -43,7 +43,7 @@ const Nav = () => {
         onClick={handleOnClick("/")}
         className="hidden max-[1200px]:flex max-[1200px]:items-center max-[1200px]:justify-start w-full"
       >
-        <img src={logo} alt="logo" className="w-[50%] object-cover max-lg:w-[60%] max-sm:w-[80%] h-full" />
+        <img src={logo} alt="logo" className="w-[50%] object-cover max-lg:w-[60%] max-sm:w-[100%] h-full" />
       </Link>
       <nav className="navbar flex items-center justify-center gap-[1rem] max-[1200px]:min-h-screen max-[1200px]:mt-[4rem]">
         <ul className="flex items-center gap-[4rem]">

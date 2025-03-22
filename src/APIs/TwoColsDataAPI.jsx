@@ -9,7 +9,7 @@ export const TwoColsHomeAboutData = [
   {
     id: 2,
     title: `Our Mission`,
-    mainclass: `bg-[#9c2257] w-[100%] flex flex-col gap-[1rem] py-[6rem] px-[5rem] h-[100%] justify-start items-center text-justify max-xl:px-[5rem] max-md:px-[2rem]`,
+    mainclass: `bg-[#294d55] w-[100%] flex flex-col gap-[1rem] py-[6rem] px-[5rem] h-[100%] justify-start items-center text-justify max-xl:px-[5rem] max-md:px-[2rem]`,
     desc: `Our mission is to be a student-focused, forward-thinking institute with a global outlook. We are dedicated to delivering contemporary education that fosters critical thinking, problem-solving, collaboration, and a deep sense of responsibility. By creating an engaging and challenging learning environment, we aim to shape future leaders who embody humility, resilience, and a commitment to excellence.`,
     desc2: ``,
   },
@@ -26,7 +26,7 @@ export const TwoColsAboutData = [
   {
     id: 2,
     title: `Our Mission`,
-    mainclass: `bg-[#9c2257] w-[100%] flex flex-col gap-[1rem] py-[6rem] px-[5rem] h-[100%] justify-start items-center text-justify max-xl:px-[5rem] max-md:px-[2rem]`,
+    mainclass: `bg-[#294d55] w-[100%] flex flex-col gap-[1rem] py-[6rem] px-[5rem] h-[100%] justify-start items-center text-justify max-xl:px-[5rem] max-md:px-[2rem]`,
     desc: `Our mission is to be a student-focused, forward-thinking institute with a global outlook. We are dedicated to delivering contemporary education that fosters critical thinking, problem-solving, collaboration, and a deep sense of responsibility. By creating an engaging and challenging learning environment, we aim to shape future leaders who embody humility, resilience, and a commitment to excellence.`,
     desc2: `VIMS is committed to cultivating a vibrant ecosystem where students, educators, and facilitators from across India and the world come together to unlock their full potential. Through an unwavering focus on the highest standards of learning and personal growth, we aspire to empower individuals to lead with purpose and make meaningful contributions to society.`,
   },

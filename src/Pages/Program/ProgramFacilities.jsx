@@ -10,7 +10,7 @@ const ProgramFacilities = () => {
         {/* <div className="h-[1px] w-[100%] bg-[#9f9f9f] mb-[6rem]"></div> */}
         <div className="flex flex-col justify-center items-center text-center gap-[2rem] w-[100%] mb-[6rem]">
           <h2 className="text-[4rem] font-normal text-[#212121] max-md:text-[3rem]">
-            Why hotel management ?
+            Why Hospitality Management ?
           </h2>
           <div className="flex flex-col gap-[1rem] justify-center items-center text-center">
             <p className="text-[1.8rem] font-normal text-[#212121]">

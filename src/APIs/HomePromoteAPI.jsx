@@ -7,17 +7,17 @@ export const HomePromoteData = [
   {
     id: 2,
     name: `Certified By`,
-    img: `/Images/HomePromoted/15.jpeg`,
+    img: `/Images/HomePromoted/16.png`,
   },
   {
     id: 3,
     name: `Options for Higher Education`,
-    img: `/Images/HomePromoted/16.png`,
+    img: `/Images/HomePromoted/17.png`,
   },
   {
     id: 4,
     name: `Options for Higher Education`,
-    img: `/Images/HomePromoted/17.png`,
+    img: `/Images/HomePromoted/15.jpeg`,
   },
 ];
 

@@ -1,4 +1,6 @@
+/* eslint-disable no-unused-vars */
 import { BiSolidSchool } from "react-icons/bi";
+import { FaMountainSun } from "react-icons/fa6";
 import { PiHandshake, PiIsland } from "react-icons/pi";
 import { RiHandbagLine } from "react-icons/ri";
 import { TbCertificate, TbUsersGroup } from "react-icons/tb";
@@ -6,7 +8,7 @@ import { TbCertificate, TbUsersGroup } from "react-icons/tb";
 export const HomeProgramData = [
   {
     id: 1,
-    icon: PiIsland,
+    icon: FaMountainSun,
     name: `Uttarakhand - The Hospitaility Hub Of India`,
     desc: `Located at the finest tourism hub of India, Uttarakhand is an ideal place to learn and get trained in hospitality management. Opportunities to intern at one of the 70+ A category international hotels and chains.`,
   },

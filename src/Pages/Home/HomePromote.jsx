@@ -20,16 +20,14 @@ const HomePromote = () => {
             return (
               <div
                 key={e.id}
-                className="flex flex-col gap-[1rem] justify-center items-center text-center w-[100%] h-[100%]"
+                className="flex flex-col gap-[1rem] justify-center items-start text-center w-[100%] h-[100%]"
               >
                 {/* <p className="text-[2rem] font-normal">{e.name}</p> */}
-                <div className="flex items-center justify-center w-[100%] h-[100%]">
+                <div className="flex justify-center w-[100%] h-[100%]">
                   <img
                     src={e.img}
                     alt="img"
-                    className={`w-[70%] ${
-                      e.id === 4 ? "w-[1200px]" : "w-[70%]"
-                    }`}
+                    className={`w-[300px] object-contain`}
                   />
                 </div>
               </div>

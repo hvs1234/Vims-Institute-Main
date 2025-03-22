@@ -8,7 +8,7 @@ const FeeLink = () => {
   return (
     <>
       <Header />
-      <div className="py-[4rem] px-[20rem] max-xl:px-[5rem] max-md:px-[2rem] w-[100%] bg-[#ededed] relative object-cover">
+      <div className="mt-[15rem] py-[4rem] px-[20rem] max-xl:px-[5rem] max-md:px-[2rem] w-[100%] bg-[#ededed] relative object-cover">
         <div className="relative w-[100%] flex flex-col gap-[1rem] rounded-md shadow-sm bg-[white] px-[2rem] py-[2rem]">
           <p className="text-[1.6rem] font-normal text-[black]">
             Important Note:
@@ -33,14 +33,14 @@ const FeeLink = () => {
                     className="border border-gray-300 text-[#2f3341] px-4 py-2 text-[2rem] max-sm:text-[1.6rem] font-normal font-[#414141] text-center bg-gray-100"
                     colSpan="2"
                   >
-                    Listed Fee for the Session 2024-2025
+                    Listed Fee for the Session 2025-2026
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td className="border border-gray-300 px-4 py-2 text-center w-1/2 text-[2rem] max-sm:text-[1.6rem] font-normal text-[#212121]">
-                    Diploma
+                    Tourism Management
                   </td>
                   <td className="border border-gray-300 px-4 py-2 text-center w-1/2 text-[2rem] max-sm:text-[1.6rem] font-normal text-[#212121]">
                     Hotel Management
@@ -49,11 +49,11 @@ const FeeLink = () => {
               </tbody>
             </table>
           </div>
-          <div className="">
+          {/* <div className="">
             <Link className="text-[1.6rem] font-semibold text-[darkred] transition-all duration-[0.2s] ease-in-out hover:opacity-[0.8]">
               Pay Fee for final process here
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
 

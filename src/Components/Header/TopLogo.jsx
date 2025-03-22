@@ -10,22 +10,18 @@ const TopLogo = () => {
     <>
       <div
         className="w-[100%] bg-[white] px-[20rem] py-[1rem] flex justify-between items-center gap-[2rem] 
-        max-2xl:px-[10rem] max-[1200px]:px-[2rem] max-md:flex-col"
+        max-2xl:px-[10rem] max-[1200px]:px-[2rem] max-md:flex-col-reverse"
       >
         <Link
           to={"/"}
           onClick={handleOnClick("/")}
           className="flex items-center justify-start w-full max-[1200px]:hidden"
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="w-[80%] h-full object-cover"
-          />
+          <img src={logo} alt="logo" className="w-[80%] h-full object-cover" />
         </Link>
-        <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-start max-sm:flex-col max-sm:justify-start max-sm:items-start">
+        <div className="flex items-center justify-end gap-[2rem] w-[100%] max-[1200px]:justify-start max-sm:justify-between max-sm:flex-row-reverse  max-sm:items-center">
           <div className="flex items-center gap-[2rem]">
-            <h2 className="uppercase font-normal text-[1.4rem]">
+            <h2 className="uppercase font-normal text-[1.4rem] max-sm:hidden">
               Admissions Open
             </h2>
             <Link

@@ -1,4 +1,4 @@
-import about_vims_img from "/Images/14.jpg";
+import about_vims_img from "/Images/15.jpg";
 
 const AboutVims = () => {
   return (
@@ -6,10 +6,10 @@ const AboutVims = () => {
       <div className="py-[9rem] px-[20rem] w-[100%] relative object-cover bg-[#f2f2f2] max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
         <div className="grid grid-cols-2 gap-[4rem] w-[100%] relative max-2xl:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-center">
-            <h2 className="text-[3rem] text-[#212121] font-normal">
+            <h2 className="text-[3rem] text-[#212121] font-normal text-center">
               About VIMS
             </h2>
-            <p className="text-[1.8rem] font-normal text-[#212121]">
+            <p className="text-[1.8rem] font-normal text-[#212121] text-justify">
               Founded by the illustrious House of Kumars, Verma Institute of
               Management Studies (VIMS) is a testament to a legacy of excellence
               in hospitality, helmed by our visionary president, Mr. Rajender
@@ -23,7 +23,7 @@ const AboutVims = () => {
               Alaya, a boutique hotel in the heart of Dehradun, offering a
               refined blend of luxury and local charm.
             </p>
-            <p className="text-[1.8rem] font-normal text-[#212121]">
+            <p className="text-[1.8rem] font-normal text-[#212121] text-justify">
               At VIMS, we are committed to nurturing the next generation of
               leaders in hospitality management by offering a curriculum that
               seamlessly integrates academic rigor with real-world experience.

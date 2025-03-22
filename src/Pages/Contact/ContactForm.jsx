@@ -9,7 +9,9 @@ const ContactForm = () => {
       <div className="py-[6rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem]">
         <div className="relative grid grid-cols-2 gap-[4rem] w-[100%] justify-center max-md:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-start">
-            <h2 className="text-[3rem] font-normal text-[#212121]">Contact</h2>
+            <h2 className="text-[3rem] font-normal text-[#212121]">
+              Contact Us
+            </h2>
             <p className="text-[1.6rem] font-normal text-[#212121]">
               If you have any queries regarding our courses, the institute or
               want to get in touch with the management - Complete the form and
@@ -20,14 +22,19 @@ const ContactForm = () => {
               Address
             </p>
             <p className="text-[1.6rem] font-normal text-[#212121]">
-              Verma Institute Of Management Studies, Dehradun Uttarakhand
-              248008, India
+              C/O Hotel Alaya, 1/2 Khan Bandhu Marg, Dehradun, Uttarakhand
               <div className="flex flex-col gap-[1rem]">
                 <p className="text-[1.6rem] text-[#212121]">
-                  Phone: <a href="tel:7466899901" className="hover:opacity-[0.8]">+91-7466899901</a>{" "}
+                  Phone:{" "}
+                  <a href="tel:7466899901" className="hover:opacity-[0.8]">
+                    +91-7466899901
+                  </a>{" "}
                 </p>
                 <p className="text-[1.6rem] text-[#212121]">
-                  For Admission Call: <a href="tel:7466899902" className="hover:opacity-[0.8]">+91-7466899902</a>{" "}
+                  For Admission Call:{" "}
+                  <a href="tel:7466899902" className="hover:opacity-[0.8]">
+                    +91-7466899902
+                  </a>{" "}
                 </p>
 
                 <div className="">

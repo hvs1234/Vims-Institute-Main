@@ -11,31 +11,31 @@ export const NavLinkData = [
   },
   {
     id: 3,
-    name: "Program",
+    name: "Courses",
     dropdown: [
       {
         id: 1,
-        name: "Our Program",
+        name: "Our Courses",
         to: "/program",
       },
       {
         id: 1,
-        name: "One Year Diploma In Hotel Management - VIMS",
+        name: "One Year Diploma In Hotel Management",
         to: "/program/diploma",
       },
       {
         id: 2,
-        name: "Diploma in Tourism Management - VIMS",
+        name: "Diploma in Tourism Management",
         to: "/program/tourism",
       },
-      {
-        id: 3,
-        name: "Mass & Media Communication Course",
-        to: "/program/massMedia",
-      },
+      // {
+      //   id: 3,
+      //   name: "Mass & Media Communication Course",
+      //   to: "/program/massMedia",
+      // },
       {
         id: 4,
-        name: "Personality Development Course",
+        name: "Short Term Course in Personality Development",
         to: "/program/personality",
       },
     ],
@@ -50,14 +50,14 @@ export const NavLinkData = [
     name: "Fee",
     to: "/fee",
   },
-  {
-    id: 6,
-    name: "Alumni",
-  },
-  {
-    id: 7,
-    name: "Events",
-  },
+  // {
+  //   id: 6,
+  //   name: "Alumni",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Events",
+  // },
   {
     id: 8,
     name: "Gallery",

@@ -11,10 +11,10 @@ const ProgramCourse = () => {
         <div className="grid grid-cols-2 gap-[4rem] w-[100%] relative max-2xl:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-center">
             <h2 className="text-[3rem] text-[#212121] font-normal">
-              About Our Course
+              About Our Courses
             </h2>
             <p className="text-[1.8rem] font-normal text-[#212121]">
-              Welcome to our One-Year Diploma in Hotel Management. This program
+              Welcome to our One-Year Diploma in Hotel and Tourism Management. This program
               meticulously crafted for individuals aspiring to immerse
               themselves in the dynamic field of hospitality. Over the course of
               one year, you will acquire an extensive understanding of hotel

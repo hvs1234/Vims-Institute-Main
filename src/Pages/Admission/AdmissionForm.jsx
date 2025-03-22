@@ -99,7 +99,9 @@ const AdmissionForm = () => {
               <option value="Diploma">
                 Short Term Personality Development
               </option>
-              <option value="Diploma">Short Term Course in Mass Media.</option>
+              <option value="Diploma">
+                Other Short Term Courses
+              </option>
             </select>
           </div>
           <div className="flex flex-col gap-[1rem] w-[100%]">
@@ -121,7 +123,7 @@ const AdmissionForm = () => {
               onChange={handleInputChange}
             ></textarea>
           </div>
-          <div className="mt-[2rem] flex items-center gap-[2rem] w-[100%]">
+          <div className="mt-[2rem] flex items-center justify-center gap-[2rem] w-[100%]">
             <button
               type="submit"
               disabled={isSubmitted}
@@ -130,14 +132,14 @@ const AdmissionForm = () => {
             >
               Submit
             </button>
-            <Link
+            {/* <Link
               to="/fee"
               onClick={handlePayFees}
               className="bg-[#9e3046] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] 
               max-[400px]:px-[2rem]"
             >
               Pay Fees
-            </Link>
+            </Link> */}
           </div>
         </form>
       </div>

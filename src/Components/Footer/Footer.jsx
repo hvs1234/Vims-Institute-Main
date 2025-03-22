@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { Link } from "react-router-dom";
 import logo from "/Images/logo-affidavit.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
@@ -14,10 +15,10 @@ const Footer = () => {
         className="py-[6rem] px-[20rem] w-[100%] bg-[url('/Images/10.jpg')] bg-no-repeat bg-center bg-cover 
           relative max-xl:px-[5rem] max-md:px-[2rem]"
       >
-        <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#232364] opacity-[0.2]"></div>
+        <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d4955] opacity-[0.8]"></div>
         <div className="grid grid-cols-3 justify-between items-start gap-[6rem] w-[100%] relative max-lg:grid-cols-1">
           <div className="flex flex-col col-span-2 max-lg:col-span-1 gap-[2rem] items-start justify-start w-[100%] h-[100%] max-lg:items-center max-lg:justify-center max-lg:text-center">
-            <Link
+            {/* <Link
               to={"/"}
               onClick={handleOnClick("/")}
               className="flex items-center justify-start w-[100%] h-[100%] max-lg:justify-center"
@@ -27,17 +28,15 @@ const Footer = () => {
                 alt="logo"
                 className="w-[50%] brightness-[1] max-md:w-[50%] max-[500px]:w-[80%]"
               />
-            </Link>
-            <p className="text-[2rem] font-normal text-[white]">
-              Get Touch With Us
-            </p>
+            </Link> */}
+            <p className="text-[2.2rem] font-normal text-[white]">Contact Us</p>
             <div className="flex flex-col gap-[1rem] w-[100%] max-lg:items-center max-lg:justify-center">
               <p className="text-[white] text-[1.8rem] font-normal">
-                <i className="fa-solid fa-location-dot"></i>&nbsp; Dehradun,
-                Uttarakhand India
+                <i className="fa-solid fa-location-dot"></i>&nbsp; C/O Hotel
+                Alaya, 1/2 Khan Bandhu Marg, Dehradun, Uttarakhand
               </p>
               <p className="text-[1.8rem] font-normal text-[white]">
-                <i className="fa-solid fa-phone"></i>&nbsp; For Admission-{" "}
+                <i className="fa-solid fa-phone"></i>&nbsp; For Admission:{" "}
                 <a href="tel:7466899901" className="hover:opacity-[0.8]">
                   +91-7466899901
                 </a>{" "}
@@ -53,19 +52,18 @@ const Footer = () => {
             </div>
             <div className="flex items-center mt-[1rem]">
               <a
-                // href=""
-                // href="https://maps.app.goo.gl/xMhCaHrLuzUgrpqe7"
-                // target="_blank"
+                href="https://maps.app.goo.gl/V5Pfe8KnkErS8mCJ9"
+                target="_blank"
                 className="bg-transparent border-[1px] border-[white] px-[2rem] py-[1rem]
-                rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
+                rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase cursor-pointer"
               >
                 Get Directions
               </a>
             </div>
           </div>
           <div className="flex flex-col gap-[1rem] w-[100%] relative justify-end items-start max-lg:justify-center max-lg:items-center max-lg:text-center">
-            <p className="text-[2rem] font-normal text-[white]">
-              Program Offered
+            <p className="text-[2.2rem] font-normal text-[white]">
+              Courses Offered
             </p>
             <Link
               to={"/program/diploma"}
@@ -86,7 +84,8 @@ const Footer = () => {
               onClick={handleOnClick}
               className="text-[1.8rem] font-normal text-[white]"
             >
-              3. Short Term Course in Mass Media Communication
+              3. Short Term Professional Courses in Tourism and Hospitality
+              Managament
             </Link>
             <Link
               to={"/program/personality"}
@@ -100,7 +99,7 @@ const Footer = () => {
                 <Link
                   to={"/admission"}
                   onClick={handleOnClick}
-                  className="bg-[crimson] px-[2rem] py-[1rem] 
+                  className="bg-[#2d4955] border-[1px] border-[white] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
                 >
                   Apply Now
@@ -158,12 +157,12 @@ const Footer = () => {
               className="text-[white] transition-all duration-[0.2s] ease-linear hover:opacity-[0.6]"
             />
           </a>
-          <a href="#" target="_blank">
+          {/* <a href="#" target="_blank">
             <FaXTwitter
               size={20}
               className="text-[white] transition-all duration-[0.2s] ease-linear hover:opacity-[0.6]"
             />
-          </a>
+          </a> */}
           <a href="#" target="_blank">
             <FaLinkedin
               size={20}

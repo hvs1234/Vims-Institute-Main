@@ -38,7 +38,7 @@ const Home = () => {
       <HomeFuture />
       <HomeProgram />
       <HomeCareer />
-      <HomeTour />
+      {/* <HomeTour /> */}
       <HomeGreet />
       {/* <HomeTips /> */}
 

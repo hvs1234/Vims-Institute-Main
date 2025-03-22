@@ -12,12 +12,12 @@ const ProgramForm = () => {
         <div className="relative grid grid-cols-2 gap-[4rem] w-[100%] justify-center max-md:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-start">
             <h2 className="text-[3rem] font-normal text-[#212121]">
-              Get More Details about this Hotel Management Course in Dehradun
+              More Details
             </h2>
             <p className="text-[1.6rem] font-normal text-[#212121]">
               Students who have appeared/passed standard 10+2 or its equivalent
               in any discipline from a recognized board in India/ other
-              countries are eligible to apply for the Degree Program. Our
+              countries are eligible to apply for the Diploma Program. Our
               Experienced Faculty ensures that you learn the very best in
               Hospitality Management.
             </p>

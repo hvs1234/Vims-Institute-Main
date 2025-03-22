@@ -8,7 +8,7 @@ import TopLogo from "./TopLogo";
 const Header = () => {
   return (
     <>
-      <div className="relative bg-[white] w-[100%] h-[100%]">
+      <div className="fixed top-0 left-0 z-[999] bg-[white] w-full h-auto flex flex-col max-lg:flex-col-reverse">
         {/* <Top /> */}
         <TopLogo />
         <Nav />
