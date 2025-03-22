@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "/Images/logo.png";
+import logo from "/Images/logo-affidavit.png";
 import { FaFacebook, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -25,7 +25,7 @@ const Footer = () => {
               <img
                 src={logo}
                 alt="logo"
-                className="w-[30%] brightness-[3] max-md:w-[40%] max-[500px]:w-[60%]"
+                className="w-[50%] brightness-[1] max-md:w-[50%] max-[500px]:w-[80%]"
               />
             </Link>
             <p className="text-[2rem] font-normal text-[white]">
@@ -86,14 +86,14 @@ const Footer = () => {
               onClick={handleOnClick}
               className="text-[1.8rem] font-normal text-[white]"
             >
-              3. Short Term Course in Mass Media
+              3. Short Term Course in Mass Media Communication
             </Link>
             <Link
               to={"/program/personality"}
               onClick={handleOnClick}
               className="text-[1.8rem] font-normal text-[white]"
             >
-              4. Short Term Personality Development
+              4. Short Term Course in Personality Development
             </Link>
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-center">
               <div className="flex items-center mt-[1rem]">

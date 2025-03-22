@@ -12,17 +12,38 @@ export const NavLinkData = [
   {
     id: 3,
     name: "Program",
-    to: "/program",
+    dropdown: [
+      {
+        id: 1,
+        name: "Our Program",
+        to: "/program",
+      },
+      {
+        id: 1,
+        name: "One Year Diploma In Hotel Management - VIMS",
+        to: "/program/diploma",
+      },
+      {
+        id: 2,
+        name: "Diploma in Tourism Management - VIMS",
+        to: "/program/tourism",
+      },
+      {
+        id: 3,
+        name: "Mass & Media Communication Course",
+        to: "/program/massMedia",
+      },
+      {
+        id: 4,
+        name: "Personality Development Course",
+        to: "/program/personality",
+      },
+    ],
   },
   {
     id: 4,
     name: "Admission",
-    dropdown: [
-      { id: 1, name: "One Year Diploma In Hotel Management - VIMS", to: "/program/diploma" },
-      { id: 2, name: "Diploma in Tourism Management - VIMS", to: "/program/tourism" },
-      { id: 3, name: "Mass & Media Communication Course", to: "/program/massMedia" },
-      { id: 4, name: "Personality Development Course", to: "/program/personality" },
-    ],
+    to: `/admission`,
   },
   {
     id: 5,

@@ -11,8 +11,7 @@ const ProgramAdmission = () => {
           <p className="text-[1.6rem] font-normal text-[#212121] max-w-[50%] max-md:max-w-[80%] max-sm:max-w-[100%]">
             The minimum qualification for enrollment in the Diploma in Hotel
             Management program is a pass certificate in the final examination of
-            10th Grade or its equivalent. For Certificate Courses is a pass 8th
-            & 10th Grades.
+            12th Grade or its equivalent.
           </p>
         </div>
         <ProgramAdmissionCard />
@@ -48,7 +47,7 @@ const ProgramAdmission = () => {
                   <div className="flex flex-col gap-[1rem] w-[100%]">
                     <p className="text-[1.6rem] font-normal text-[#515151]">
                       <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                      &nbsp; 5% scholarship to Girl Candidate for complete
+                      &nbsp; 10% scholarship to Girl Candidate for complete
                       programme.
                     </p>
                     <p className="text-[1.6rem] font-normal text-[#515151]">
@@ -81,10 +80,6 @@ const ProgramAdmission = () => {
                 <div className="flex flex-col gap-[1rem] w-[100%]">
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Class 10th pass certificate & mark sheet{" "}
-                  </p>
-                  <p className="text-[1.6rem] font-normal text-[#212121]">
-                    <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
                     &nbsp; Class 12th pass certificate & mark sheet{" "}
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
@@ -93,7 +88,7 @@ const ProgramAdmission = () => {
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Passport size photo 2{" "}
+                    &nbsp; Passport size photo - 2{" "}
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     A self attested copy of the above mentioned documents should

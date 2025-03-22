@@ -28,7 +28,7 @@ const HomePromote = () => {
                     src={e.img}
                     alt="img"
                     className={`w-[70%] ${
-                      e.id === 4 ? "w-[500px]" : "w-[70%]"
+                      e.id === 4 ? "w-[1200px]" : "w-[70%]"
                     }`}
                   />
                 </div>

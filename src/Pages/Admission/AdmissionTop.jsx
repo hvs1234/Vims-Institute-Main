@@ -22,7 +22,7 @@ const AdmissionTop = () => {
               Our Admission
             </p> */}
             <h1 className="text-[5rem] text-[white] font-normal max-xl:text-[4rem] max-md:text-[3rem]">
-              Get admission in hotel management, Tourism & Mass Communication -
+              Get admission in Hotel Management, Tourism & Mass Communication -
               VIMS
             </h1>
             <p className="text-[2rem] text-[white] font-normal">

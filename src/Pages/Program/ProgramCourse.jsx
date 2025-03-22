@@ -31,8 +31,8 @@ const ProgramCourse = () => {
             <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-start">
               <div className="flex items-center mt-[1rem]">
                 <Link
-                  to={"/"}
-                  onClick={handleOnClick("/")}
+                  to={"/admission"}
+                  onClick={handleOnClick("/admission")}
                   target="_blank"
                   className="bg-[crimson] px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase"
