@@ -31,7 +31,7 @@ const Admission = () => {
       <AdmissionTop />
       <AdmissionMain />
       <HomeProgram />
-      <HomeTour />
+      {/* <HomeTour /> */}
       <ProgramAdmission />
       {/* <HomeTips tipsdata={hometipsdata} /> */}
 

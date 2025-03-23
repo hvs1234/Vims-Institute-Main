@@ -296,7 +296,7 @@ const ProgramCard = ({ programCardData = [] }) => {
                 </div>
               ))}
             </div>
-            <HomeTour />
+            {/* <HomeTour /> */}
             <div className="mt-[2rem] w-full flex flex-col gap-[1rem]">
               <h2 className="text-[3rem] font-normal text-[#212121]">
                 {eleMain.conclusion && (
