@@ -80,8 +80,8 @@ const Footer = () => {
               2. Diploma in Tourism Management
             </Link>
             <Link
-              to={"/program/massMedia"}
-              onClick={handleOnClick}
+              to={""}
+              // onClick={handleOnClick}
               className="text-[1.8rem] font-normal text-[white]"
             >
               3. Short Term Professional Courses in Tourism and Hospitality

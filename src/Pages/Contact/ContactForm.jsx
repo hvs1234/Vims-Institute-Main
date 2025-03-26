@@ -46,7 +46,8 @@ const ContactForm = () => {
           </div>
           <div className="flex justify-center items-start w-[100%] ml-auto mr-auto h-[100%]">
             <form
-              action="#"
+              action="https://formspree.io/f/mdkedvvo"
+              method="POST"
               className="flex flex-col gap-[1rem] px-[4rem] py-[4rem] w-[100%] h-[100%] bg-[white] border-[1px] border-[grey]"
             >
               {admissionformdata.map((e) => {

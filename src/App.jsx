@@ -25,10 +25,10 @@ const App = () => {
           <Route path="/feelink" element={<FeeLink />}></Route>
           <Route path="/program/diploma" element={<ProgramDiploma />}></Route>
           <Route path="/program/tourism" element={<ProgramTourism />}></Route>
-          <Route
+          {/* <Route
             path="/program/massMedia"
             element={<ProgramMassMedia />}
-          ></Route>
+          ></Route> */}
           <Route
             path="/program/personality"
             element={<ProgramPersonality />}

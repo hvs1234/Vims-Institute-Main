@@ -19,10 +19,26 @@ const AdmissionForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitted(true);
-    toast.success("Form submitted successfully!");
+    try {
+      const response = await fetch("https://formspree.io/f/mdkedvvo", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast.success("Form submitted successfully!");
+        setIsSubmitted(true);
+      } else {
+        toast.error("Failed to submit the form");
+      }
+    } catch (error) {
+      toast.error("An error occurred while submitting the form");
+    }
   };
 
   const handlePayFees = (e) => {
@@ -99,9 +115,7 @@ const AdmissionForm = () => {
               <option value="Diploma">
                 Short Term Personality Development
               </option>
-              <option value="Diploma">
-                Other Short Term Courses
-              </option>
+              <option value="Diploma">Other Short Term Courses</option>
             </select>
           </div>
           <div className="flex flex-col gap-[1rem] w-[100%]">
