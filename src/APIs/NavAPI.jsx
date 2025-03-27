@@ -28,11 +28,11 @@ export const NavLinkData = [
         name: "Diploma in Tourism Management",
         to: "/program/tourism",
       },
-      // {
-      //   id: 3,
-      //   name: "Mass & Media Communication Course",
-      //   to: "/program/massMedia",
-      // },
+      {
+        id: 3,
+        name: "Short Term Professional Courses in Tourism and Hospitaility Managament",
+        to: "/program/professional",
+      },
       {
         id: 4,
         name: "Short Term Course in Personality Development",
