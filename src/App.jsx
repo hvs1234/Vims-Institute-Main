@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import AboutUs from "./Pages/AboutUs/AboutUs";
@@ -10,6 +11,7 @@ import ProgramDiploma from "./Pages/Program/ProgramDiploma/ProgramDiploma";
 import ProgramTourism from "./Pages/Program/ProgramTourism/ProgramTourism";
 import ProgramMassMedia from "./Pages/Program/ProgramMassMedia/ProgramMassMedia";
 import ProgramPersonality from "./Pages/Program/ProgramPersonality/ProgramPersonality";
+import ProgramProfessional from "./Pages/Program/ProgramProfessional/ProgramProfessional";
 
 const App = () => {
   return (
@@ -25,6 +27,10 @@ const App = () => {
           <Route path="/feelink" element={<FeeLink />}></Route>
           <Route path="/program/diploma" element={<ProgramDiploma />}></Route>
           <Route path="/program/tourism" element={<ProgramTourism />}></Route>
+          <Route
+            path="/program/professional"
+            element={<ProgramProfessional />}
+          ></Route>
           {/* <Route
             path="/program/massMedia"
             element={<ProgramMassMedia />}

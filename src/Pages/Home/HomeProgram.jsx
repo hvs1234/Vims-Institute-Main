@@ -84,7 +84,8 @@ const HomeProgram = () => {
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
             <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
               <h2 className="text-[2.2rem] text-[white] uppercase">
-                SHORT TERM PROFESSIONAL COURSES IN TOURISM AND HOSPITALITY MANAGEMENT
+                SHORT TERM PROFESSIONAL COURSES IN TOURISM AND HOSPITALITY
+                MANAGEMENT
               </h2>
               <p className="text-[1.6rem] font-normal text-center text-[white]">
                 This short course will help you refine essential skills such as
@@ -95,8 +96,8 @@ const HomeProgram = () => {
               </p>
               <div className="flex items-center">
                 <Link
-                  to={""}
-                  // onClick={handleOnClick("")}
+                  to={"/program/professional"}
+                  onClick={handleOnClick("/program/professional")}
                   className="bg-transparent px-[2rem] py-[1rem] 
                   rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] 
                   transition-all duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black]"

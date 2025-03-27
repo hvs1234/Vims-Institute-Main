@@ -125,3 +125,19 @@ export const ProgramPersonalityData = [
     to: `/`,
   },
 ];
+
+export const ProgramProfessionalData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/professional-banner.jpeg')]`,
+    titleclass: ``,
+    title: `Short Term Professional Courses In Tourism and Hospitaility Management`,
+    title2: ``,
+    para: `Our Short-term professional courses in tourism and hospitality management provide industry-specific skills, practical knowledge, and career growth opportunities in a dynamic global sector.`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];
