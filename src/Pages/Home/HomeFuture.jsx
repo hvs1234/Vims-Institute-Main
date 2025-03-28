@@ -52,7 +52,7 @@ const HomeFuture = () => {
             <img
               src={home_future_img}
               alt="img"
-              className="w-[100%] h-[100%]"
+              className="w-[100%] h-[100%] object-cover"
             />
           </div>
         </div>

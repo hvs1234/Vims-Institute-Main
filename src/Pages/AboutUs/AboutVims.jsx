@@ -47,7 +47,7 @@ const AboutVims = () => {
             <img
               src={about_vims_img}
               alt="img"
-              className="w-[100%] rounded-sm"
+              className="w-[100%] rounded-sm object-contain"
             />
           </div>
         </div>
