@@ -35,11 +35,11 @@ const HomeGreet = () => {
             <div className="flex items-center justify-center w-[100%]">
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Rajender Kumar Verma, Founder
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Rajender Kumar Verma
             </p>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Verma Institue of Management Studies
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Founder, Verma Institue of Management Studies
             </p>
           </div>
         </div>
@@ -73,11 +73,11 @@ const HomeGreet = () => {
             <div className="flex items-center justify-center w-[100%]">
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Shaivee Verma, Chairman
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Shaivee Verma
             </p>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Verma Institue of Management Studies
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Chairman, Verma Institue of Management Studies
             </p>
           </div>
         </div>
@@ -112,11 +112,11 @@ const HomeGreet = () => {
             <div className="flex items-center justify-center w-[100%]">
               <img src={img1} alt="img" className="w-[20%] rounded-full" />
             </div>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Anshul Kumar Verma, Director
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Anshul Kumar Verma
             </p>
-            <p className="text-[1.8rem] font-normal text-[white] uppercase">
-              Verma Institute Of Management Studies
+            <p className="text-[1.8rem] font-normal text-[white] capitalize">
+              Director, Verma Institute Of Management Studies
             </p>
           </div>
         </div>

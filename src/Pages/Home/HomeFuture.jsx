@@ -12,7 +12,7 @@ const HomeFuture = () => {
       <div className="py-[9rem] px-[20rem] w-[100%] relative max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
         <div className="grid grid-cols-2 gap-[6rem] w-[100%] justify-center max-xl:grid-cols-1 max-lg:gap-[4rem]">
           <div className="flex flex-col justify-center gap-[2rem] w-[100%]">
-            <h2 className="text-[3rem] font-normal capitalize">
+            <h2 className="text-[3rem] font-normal capitalize text-center">
               CRAFTING A FUTURE OF SUCCESS
             </h2>
             <p className="text-[1.8rem] font-normal text-justify">
@@ -37,7 +37,7 @@ const HomeFuture = () => {
               launchpad for aspiring hospitality leaders who aim to make their
               mark on a global stage.
             </p>
-            <div className="flex items-center mt-[1rem] max-xl:justify-center">
+            <div className="flex items-center mt-[1rem] justify-center">
               <Link
                 to={"/aboutus"}
                 onClick={handleOnClick("/aboutus")}

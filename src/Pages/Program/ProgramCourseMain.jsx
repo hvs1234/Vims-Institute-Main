@@ -20,7 +20,7 @@ const ProgramCourseMain = () => {
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-            <h2 className="text-[2.2rem] text-[white] uppercase">
+            <h2 className="text-[2.2rem] text-[white] capitalize">
               Diploma in Hotel Management
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
@@ -48,7 +48,7 @@ const ProgramCourseMain = () => {
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-            <h2 className="text-[2.2rem] text-[white] uppercase">
+            <h2 className="text-[2.2rem] text-[white] capitalize">
               Diploma in Tourism Management
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
@@ -77,9 +77,9 @@ const ProgramCourseMain = () => {
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-            <h2 className="text-[2.2rem] text-[white] uppercase">
-              SHORT TERM PROFESSIONAL COURSE IN TOURISM AND HOSPITALITY
-              MANAGEMENT
+            <h2 className="text-[2.2rem] text-[white] capitalize">
+              Short Term Professional Courses in Tourism and Hospitality
+              Manangement
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
               This short course will help you refine essential skills such as
@@ -107,8 +107,8 @@ const ProgramCourseMain = () => {
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
-            <h2 className="text-[2.2rem] text-[white] uppercase">
-              SHORT TERM COURSE IN PERSONALITY DEVELOPMENT
+            <h2 className="text-[2.2rem] text-[white] capitalize">
+              Short Term Course in Personality Development
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
               Our Personality Development Course is meticulously designed to

@@ -36,34 +36,34 @@ const ProgramAdmission = () => {
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#515151]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Min. 50% marks for general and 45% marks in case of
+                    &nbsp; Min. 50% marks for General and 45% marks in case of
                     SC/ST category.
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#515151]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Scholarship will be allowed to the candidate from the
-                    following:
+                    &nbsp; The following scholarship are available:
                   </p>
                   <div className="flex flex-col gap-[1rem] w-[100%]">
                     <p className="text-[1.6rem] font-normal text-[#515151]">
-                      <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                      &nbsp; 10% scholarship to Girl Candidate for complete
-                      programme.
+                      <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
+                      &nbsp; 10% scholarship to female Candidate for the
+                      complete programme.
                     </p>
                     <p className="text-[1.6rem] font-normal text-[#515151]">
-                      <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                      &nbsp; 5% scholarship on Net Academic Fee to ward of
-                      Defence Personnel for complete programme.
+                      <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
+                      &nbsp; 5% scholarship on Net Academic Fee to wards of
+                      Defence personnel for the complete programme
                     </p>
                     <p className="text-[1.6rem] font-normal text-[#515151]">
-                      <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                      &nbsp; 10% scholarship on Net Academic Fee to uttarakhand
-                      domicile.
+                      <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
+                      &nbsp; 10% scholarship on Net Academic Fee to Uttarakhand
+                      domicile
                     </p>
                     <p className="text-[1.6rem] font-normal text-[#515151]">
-                      <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                      &nbsp; 5% fees waiver to candidate above 75% in 12th class
-                      and 10 % to 85% and above.
+                      <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
+                      &nbsp; 5% fees waiver to candidates scoring above 75% and
+                      10% fee waiver to candidates scoring above 85% in Class
+                      12th
                     </p>
                   </div>
                 </div>

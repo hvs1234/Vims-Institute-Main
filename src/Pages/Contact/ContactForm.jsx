@@ -9,7 +9,7 @@ const ContactForm = () => {
       <div className="py-[6rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem]">
         <div className="relative grid grid-cols-2 gap-[4rem] w-[100%] justify-center max-md:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-start">
-            <h2 className="text-[3rem] font-normal text-[#212121]">
+            <h2 className="text-[3rem] font-normal text-[#212121] text-center">
               Contact Us
             </h2>
             <p className="text-[1.6rem] font-normal text-[#212121]">

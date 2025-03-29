@@ -10,26 +10,26 @@ const ProgramCourse = () => {
       <div className="py-[9rem] px-[20rem] w-[100%] relative object-cover max-xl:px-[5rem] max-md:px-[2rem] max-md:py-[6rem]">
         <div className="grid grid-cols-2 gap-[4rem] w-[100%] relative max-2xl:grid-cols-1">
           <div className="flex flex-col gap-[1rem] w-[100%] justify-center">
-            <h2 className="text-[3rem] text-[#212121] font-normal">
+            <h2 className="text-[3rem] text-[#212121] font-normal text-center">
               About Our Courses
             </h2>
-            <p className="text-[1.8rem] font-normal text-[#212121]">
-              Welcome to our One-Year Diploma in Hotel and Tourism Management. This program
-              meticulously crafted for individuals aspiring to immerse
-              themselves in the dynamic field of hospitality. Over the course of
-              one year, you will acquire an extensive understanding of hotel
-              operations, encompassing front office management, housekeeping,
-              and food and beverage service.
+            <p className="text-[1.8rem] font-normal text-[#212121] text-justify">
+              Welcome to our One-Year Diploma in Hotel and Tourism Management.
+              This program meticulously crafted for individuals aspiring to
+              immerse themselves in the dynamic field of hospitality. Over the
+              course of one year, you will acquire an extensive understanding of
+              hotel operations, encompassing front office management,
+              housekeeping, and food and beverage service.
             </p>
-            <p className="text-[1.8rem] font-normal text-[#212121]">
+            <p className="text-[1.8rem] font-normal text-[#212121] text-justify">
               Join our One-Year Diploma in Hotel Management and gain hands-on
               experience in key hospitality areas. Learn from industry experts,
               master essential skills, and unlock exciting global career
               opportunities in the fast-paced world of hotel management and
               hospitality services.
             </p>
-            <div className="flex items-center gap-[1rem] w-[100%] max-lg:justify-start">
-              <div className="flex items-center mt-[1rem]">
+            <div className="flex items-center gap-[1rem] w-[100%] justify-center">
+              <div className="flex items-center mt-[1rem] justify-center">
                 <Link
                   to={"/admission"}
                   onClick={handleOnClick("/admission")}
