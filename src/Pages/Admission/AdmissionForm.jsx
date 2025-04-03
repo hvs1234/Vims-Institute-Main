@@ -113,9 +113,11 @@ const AdmissionForm = () => {
               <option value="Diploma">Diploma In Hotel Management</option>
               <option value="Diploma">Diploma In Tourism Management</option>
               <option value="Diploma">
-                Short Term Personality Development
+                Personality Development (Short Term)
               </option>
-              <option value="Diploma">Other Short Term Courses</option>
+              <option value="Diploma">
+                Tourism and Hospitality (Short Term)
+              </option>
             </select>
           </div>
           <div className="flex flex-col gap-[1rem] w-[100%]">

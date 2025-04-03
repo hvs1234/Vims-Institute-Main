@@ -32,22 +32,22 @@ const ProgramAdmission = () => {
                 <div className="w-[100%] flex flex-col gap-[1rem]">
                   <p className="text-[1.6rem] font-normal text-[#515151]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; 10/10+2 Examination passed in any stream.
+                    &nbsp; 10/10+2 Examination passed in any stream
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#515151]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
                     &nbsp; Min. 50% marks for General and 45% marks in case of
-                    SC/ST category.
+                    SC/ST category
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#515151]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; The following scholarship are available:
+                    &nbsp; The following Scholarships* are available:
                   </p>
                   <div className="flex flex-col gap-[1rem] w-[100%]">
                     <p className="text-[1.6rem] font-normal text-[#515151]">
                       <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
                       &nbsp; 10% scholarship to female Candidate for the
-                      complete programme.
+                      complete programme
                     </p>
                     <p className="text-[1.6rem] font-normal text-[#515151]">
                       <i className="fa-regular fa-hand-point-right text-[darkgreen]"></i>
@@ -92,7 +92,7 @@ const ProgramAdmission = () => {
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     A self attested copy of the above mentioned documents should
-                    be submitted along with the filled form at the Institute.
+                    be submitted along with the filled form at the Institute
                   </p>
                 </div>
               </div>

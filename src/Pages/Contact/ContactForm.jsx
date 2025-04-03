@@ -27,13 +27,13 @@ const ContactForm = () => {
                 <p className="text-[1.6rem] text-[#212121]">
                   Phone:{" "}
                   <a href="tel:7466899901" className="hover:opacity-[0.8]">
-                    +91-7466899901
+                    +917466899901
                   </a>{" "}
                 </p>
                 <p className="text-[1.6rem] text-[#212121]">
                   For Admission Call:{" "}
                   <a href="tel:7466899902" className="hover:opacity-[0.8]">
-                    +91-7466899902
+                    +917466899902
                   </a>{" "}
                 </p>
 
@@ -87,7 +87,7 @@ const ContactForm = () => {
                   placeholder="Message"
                 ></textarea>
               </div>
-              <div className="mt-[2rem] w-[100%]">
+              <div className="mt-[2rem] w-[100%] flex justify-center items-center">
                 <button
                   type="submit"
                   className="bg-[#9e3046] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem]"

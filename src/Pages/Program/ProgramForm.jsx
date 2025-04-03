@@ -27,8 +27,8 @@ const ProgramForm = () => {
             <p className="text-[1.6rem] font-normal text-[#212121]">
               Fill in your details, to get more information about this program.
               For any assistance, you can call{" "}
-              <a href="tel:7466899901">+91-7466899901</a> /{" "}
-              <a href="tel:7466899902">+91-7466899902</a> <br/>
+              <a href="tel:7466899901">+917466899901</a> /{" "}
+              <a href="tel:7466899902">+917466899902</a> <br/>
               or email{" "}
               <a href="mailto:admissions@vims.ac">admissions@vims.ac</a>
             </p>
