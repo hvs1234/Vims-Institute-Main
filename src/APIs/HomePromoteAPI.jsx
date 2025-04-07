@@ -2,7 +2,7 @@ export const HomePromoteData = [
   {
     id: 1,
     name: `Promoted By`,
-    img: `/Images/HomePromoted/14.jpeg`,
+    img: `/Images/HomePromoted/14-bg.png`,
   },
   {
     id: 2,
@@ -12,12 +12,12 @@ export const HomePromoteData = [
   {
     id: 3,
     name: `Options for Higher Education`,
-    img: `/Images/HomePromoted/17.png`,
+    img: `/Images/HomePromoted/17-bg.png`,
   },
   {
     id: 4,
     name: `Options for Higher Education`,
-    img: `/Images/HomePromoted/15.jpeg`,
+    img: `/Images/HomePromoted/15-bg.png`,
   },
 ];
 
