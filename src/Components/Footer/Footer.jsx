@@ -84,8 +84,8 @@ const Footer = () => {
               onClick={handleOnClick}
               className="text-[1.8rem] font-normal text-[white]"
             >
-              3. Short Term Professional Courses in Tourism and Hospitality
-              Managament
+              3. Short Term Professional Course in Tourism and Hospitality
+              Management
             </Link>
             <Link
               to={"/program/personality"}

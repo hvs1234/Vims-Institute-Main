@@ -3,7 +3,7 @@ export const HomeValuesData = [
     id: 1,
     img: `/Images/HomeValues/1.png`,
     name: `Commitment`,
-    desc: `We commit to excellence in hospitality education and training, to create opportunities in keeping with the Vision and Mission of the Institute.`,
+    desc: `We commit to excellence in hospitality education and training to create opportunities in keeping with the Vision and Mission of the Institute.`,
   },
   {
     id: 2,

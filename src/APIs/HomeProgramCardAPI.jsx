@@ -10,7 +10,7 @@ export const HomeProgramData = [
     id: 1,
     icon: FaMountainSun,
     name: `Uttarakhand - The Hospitaility Hub Of India`,
-    desc: `Located at the finest tourism hub of India, Uttarakhand is an ideal place to learn and get trained in hospitality management. Opportunities to intern at one of the 70+ A category international hotels and chains.`,
+    desc: `Uttarakhand is an ideal place to learn and get trained in hospitality management. You will get ample opportunities to intern at one of the 70+ Category-A international hotels and chains.`,
   },
   {
     id: 2,
@@ -34,12 +34,12 @@ export const HomeProgramData = [
     id: 5,
     icon: PiHandshake,
     name: `Partnerships`,
-    desc: `International exposure with strategic tie-ups with leading global partners for exchange programmes and higher education opportunities.`,
+    desc: `You will get international exposure with strategic tie-ups with leading global partners for exchange programmes and higher education opportunities.`,
   },
   {
     id: 6,
     icon: RiHandbagLine,
     name: `Internships and Placements`,
-    desc: `Professional internship at well-known international brands and 100% placement assistance.`,
+    desc: `Professional internship at well-known national and international brands and 100% placement assistance will be provided to all our students.`,
   },
 ];

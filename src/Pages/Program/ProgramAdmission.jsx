@@ -75,24 +75,25 @@ const ProgramAdmission = () => {
               </div>
               <div className="flex flex-col gap-[2rem] w-[100%]">
                 <p className="text-[2rem] font-normal text-[black]">
-                  List of Documents to be Submitted for Admission
+                  *List Of Documents To Be Submitted For Admission
                 </p>
                 <div className="flex flex-col gap-[1rem] w-[100%]">
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Class 12th pass certificate & mark sheet{" "}
+                    &nbsp; Class 12th Pass Certificate & Marksheet{" "}
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; I.D. Proof - Aadhar Card, Voter ID{" "}
+                    &nbsp; I.D. Proof - Aadhar Card or Voter ID{" "}
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
                     <i className="fa-solid fa-arrows-to-dot text-[green]"></i>
-                    &nbsp; Passport size photo - 2{" "}
+                    &nbsp; 2 passport-sized photo
                   </p>
                   <p className="text-[1.6rem] font-normal text-[#212121]">
-                    A self attested copy of the above mentioned documents should
-                    be submitted along with the filled form at the Institute
+                    *Self-attested copies of the above mentioned documents
+                    should be submitted along with the complete form at the
+                    institute
                   </p>
                 </div>
               </div>

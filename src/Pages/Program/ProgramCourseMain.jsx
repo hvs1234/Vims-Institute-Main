@@ -78,8 +78,8 @@ const ProgramCourseMain = () => {
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
           <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
             <h2 className="text-[2.2rem] text-[white] capitalize">
-              Short Term Professional Courses in Tourism and Hospitality
-              Manangement
+              Short Term Professional Course in Tourism and Hospitality
+              Management
             </h2>
             <p className="text-[1.6rem] font-normal text-center text-[white]">
               This short course will help you refine essential skills such as
@@ -102,7 +102,7 @@ const ProgramCourseMain = () => {
           </div>
         </div>
         <div
-          className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/15.jpg')] 
+          className="gap-[1rem] rounded-md h-[100%] relative object-cover bg-[url('/Images/16.jpg')] 
             bg-no-repeat bg-center bg-cover"
         >
           <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>

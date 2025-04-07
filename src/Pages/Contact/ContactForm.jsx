@@ -13,10 +13,9 @@ const ContactForm = () => {
               Contact Us
             </h2>
             <p className="text-[1.6rem] font-normal text-[#212121]">
-              If you have any queries regarding our courses, the institute or
-              want to get in touch with the management - Complete the form and
-              ensure that you fill your purpose in the comments section. We will
-              get in touch with you.
+              If you have any queries regarding our courses or wish to get in
+              touch with the Management, please fill the form along with your
+              message and we will get in touch with you.
             </p>
             <p className="text-[2rem] font-normal capitalize mt-[1rem]">
               Address

@@ -24,7 +24,7 @@ const ProgramCourse = () => {
             <p className="text-[1.8rem] font-normal text-[#212121] text-justify">
               Join our One-Year Diploma in Hotel Management and gain hands-on
               experience in key hospitality areas. Learn from industry experts,
-              master essential skills, and unlock exciting global career
+              master essential skills, and unlock excix`ting global career
               opportunities in the fast-paced world of hotel management and
               hospitality services.
             </p>

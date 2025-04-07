@@ -30,7 +30,7 @@ export const NavLinkData = [
       },
       {
         id: 3,
-        name: "Short Term Professional Courses in Tourism and Hospitaility Managament",
+        name: "Short Term Professional Course in Tourism and Hospitality Management",
         to: "/program/professional",
       },
       {
