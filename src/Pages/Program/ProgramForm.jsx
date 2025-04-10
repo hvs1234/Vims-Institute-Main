@@ -15,7 +15,7 @@ const ProgramForm = () => {
               More Details
             </h2>
             <p className="text-[1.6rem] font-normal text-[#212121]">
-              Students who have appeared/passed standard 10+2 or its equivalent
+              Students who have passed 10+2 or its equivalent
               in any discipline from a recognized board in India/ other
               countries are eligible to apply for the Diploma Program. Our
               Experienced Faculty ensures that you learn the very best in

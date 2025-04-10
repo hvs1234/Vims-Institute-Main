@@ -38,7 +38,7 @@ const Hero = () => {
             <Link
               to={"/admission"}
               onClick={handleOnClick("/admission")}
-              className="bg-[#263169] capitalize px-[2rem] py-[1rem] text-[white] font-normal text-[1.8rem] rounded-sm 
+              className="bg-[#294d55] capitalize px-[2rem] py-[1rem] text-[white] font-normal text-[1.8rem] rounded-sm 
               transition-all duration-[0.2s] ease-linear hover:opacity-[0.9]"
             >
               Apply Now

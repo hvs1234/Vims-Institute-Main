@@ -41,7 +41,7 @@ const HomeFuture = () => {
               <Link
                 to={"/aboutus"}
                 onClick={handleOnClick("/aboutus")}
-                className="bg-[darkviolet] px-[2rem] py-[1rem] 
+                className="bg-[#294d55] px-[2rem] py-[1rem] 
                 rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]"
               >
                 Read More

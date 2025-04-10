@@ -25,16 +25,19 @@ const HomeProgram = () => {
             bg-no-repeat bg-center bg-cover"
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[2.2rem] max-[450px]:px-[6rem] max-[380px]:px-0 text-[white] capitalize">
-                Diploma in Hotel Management
-              </h2>
-              <p className="text-[1.6rem] font-normal text-center text-[white]">
-                Over the course of a year, you will gain comprehensive expertise
-                in hotel operations, including front office management,
-                housekeeping, and food and beverage service, preparing you to
-                excel in every facet of the hospitality industry.
-              </p>
+            <div className="relative flex flex-col justify-between items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
+              <div className="flex flex-col gap-[2rem] w-full justify-center items-center text-center">
+                <h2 className="text-[2.2rem] max-[450px]:px-[6rem] max-[380px]:px-0 text-[white] capitalize">
+                  Diploma in Hotel Management
+                </h2>
+                <p className="text-[1.6rem] font-normal text-center text-[white]">
+                  Over the course of a year, you will gain comprehensive
+                  expertise in hotel operations, including front office
+                  management, housekeeping, and food and beverage service,
+                  preparing you to excel in every facet of the hospitality
+                  industry.
+                </p>
+              </div>
               <div className="flex items-center">
                 <Link
                   to={"/program/diploma"}
@@ -53,17 +56,19 @@ const HomeProgram = () => {
             bg-no-repeat bg-center bg-cover"
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[2.2rem] text-[white] capitalize">
-                Diploma in Tourism Management
-              </h2>
-              <p className="text-[1.6rem] font-normal text-center text-[white]">
-                You will develop in-depth knowledge of tourism management,
-                exploring areas such as destination planning, travel operations,
-                and customer engagement, over the course of one year. This
-                program equips you with the skills to excel in the dynamic and
-                ever-evolving global tourism industry.
-              </p>
+            <div className="relative flex flex-col justify-between items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] py-[10rem] rounded-xl h-[100%]">
+              <div className="flex flex-col gap-[2rem] w-full justify-center items-center text-center">
+                <h2 className="text-[2.2rem] text-[white] capitalize">
+                  Diploma in Tourism Management
+                </h2>
+                <p className="text-[1.6rem] font-normal text-center text-[white]">
+                  You will develop in-depth knowledge of tourism management,
+                  exploring areas such as destination planning, travel
+                  operations, and customer engagement, over the course of one
+                  year. This program equips you with the skills to excel in the
+                  dynamic and ever-evolving global tourism industry.
+                </p>
+              </div>
               <div className="flex items-center">
                 <Link
                   to={"/program/tourism"}
@@ -82,18 +87,20 @@ const HomeProgram = () => {
             bg-no-repeat bg-center bg-cover"
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[2.2rem] text-[white] capitalize">
-                Short Term Professional Course in Tourism and Hospitality
-                Management
-              </h2>
-              <p className="text-[1.6rem] font-normal text-center text-[white]">
-                This short course will help you refine essential skills such as
-                communication, confidence, and leadership while fostering
-                emotional intelligence and a professional attitude. Gain the
-                tools to excel in any field and leave a lasting impression in
-                every sphere of life.
-              </p>
+            <div className="relative flex flex-col justify-between items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
+              <div className="flex flex-col gap-[2rem] w-full justify-center items-center text-center">
+                <h2 className="text-[2.2rem] text-[white] capitalize">
+                  Short Term Professional Course in Tourism and Hospitality
+                  Management
+                </h2>
+                <p className="text-[1.6rem] font-normal text-center text-[white]">
+                  This short course will help you refine essential skills such
+                  as communication, confidence, and leadership while fostering
+                  emotional intelligence and a professional attitude. Gain the
+                  tools to excel in any field and leave a lasting impression in
+                  every sphere of life.
+                </p>
+              </div>
               <div className="flex items-center">
                 <Link
                   to={"/program/professional"}
@@ -112,17 +119,19 @@ const HomeProgram = () => {
             bg-no-repeat bg-center bg-cover"
           >
             <div className="absolute top-0 left-0 w-[100%] h-[100%] bg-[#2d2948] opacity-[0.8]"></div>
-            <div className="relative flex flex-col justify-start items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
-              <h2 className="text-[2.2rem] text-[white] capitalize">
-                Short Term Course in Personality Development
-              </h2>
-              <p className="text-[1.6rem] font-normal text-center text-[white]">
-                Our Personality Development Course is meticulously designed to
-                refine your personality, boost self-confidence, and prepare you
-                for the challenges of a competitive world. At VIMS, we believe
-                in creating future leaders by blending academic excellence,
-                ethical values, and hands-on training.
-              </p>
+            <div className="relative flex flex-col justify-between items-center text-center transition-all duration-[0.4s] ease-in-out hover:translate-y-[-2rem] gap-[2rem] px-[4rem] max-[500px]:px-[2rem] py-[10rem] rounded-xl h-[100%]">
+              <div className="flex flex-col gap-[2rem] w-full justify-center items-center text-center">
+                <h2 className="text-[2.2rem] text-[white] capitalize">
+                  Short Term Course in Personality Development
+                </h2>
+                <p className="text-[1.6rem] font-normal text-center text-[white]">
+                  Our Personality Development Course is meticulously designed to
+                  refine your personality, boost self-confidence, and prepare
+                  you for the challenges of a competitive world. At VIMS, we
+                  believe in creating future leaders by blending academic
+                  excellence, ethical values, and hands-on training.
+                </p>
+              </div>
               <div className="flex items-center">
                 <Link
                   to={"/program/personality"}

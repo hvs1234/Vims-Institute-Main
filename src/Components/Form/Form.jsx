@@ -33,7 +33,7 @@ const Form = ({ formdata }) => {
           <div className="mt-[2rem] w-[100%] flex justify-center items-center">
             <button
               type="submit"
-              className="bg-[#9e3046] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem]"
+              className="bg-[#294d55] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem]"
             >
               Submit
             </button>

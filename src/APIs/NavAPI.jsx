@@ -20,7 +20,7 @@ export const NavLinkData = [
       },
       {
         id: 1,
-        name: "One Year Diploma In Hotel Management",
+        name: "Diploma In Hotel Management",
         to: "/program/diploma",
       },
       {
@@ -30,13 +30,13 @@ export const NavLinkData = [
       },
       {
         id: 3,
-        name: "Short Term Professional Course in Tourism and Hospitality Management",
-        to: "/program/professional",
+        name: "Personality Development (Short Term)",
+        to: "/program/personality",
       },
       {
         id: 4,
-        name: "Short Term Course in Personality Development",
-        to: "/program/personality",
+        name: "Tourism and Hospitality (Short Term)",
+        to: "/program/professional",
       },
     ],
   },

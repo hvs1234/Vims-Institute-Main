@@ -27,7 +27,7 @@ const TopLogo = () => {
             <Link
               to={"/admission"}
               onClick={handleOnClick("/admission")}
-              className="bg-[crimson] text-[white] flex justify-end text-[1.4rem] font-normal px-[2rem] py-[1rem] rounded-sm 
+              className="bg-[#294d55] text-[white] flex justify-end text-[1.4rem] font-normal px-[2rem] py-[1rem] rounded-sm 
             transition-all duration-[0.2s] ease-linear hover:opacity-[0.8]"
             >
               Apply Now

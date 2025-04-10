@@ -143,7 +143,7 @@ const AdmissionForm = () => {
             <button
               type="submit"
               disabled={isSubmitted}
-              className="bg-[#9e3046] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] 
+              className="bg-[#294d55] text-[white] font-normal text-[2rem] px-[4rem] py-[1rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] 
               max-[400px]:px-[2rem]"
             >
               Submit

@@ -54,7 +54,7 @@ const Footer = () => {
               <a
                 href="https://maps.app.goo.gl/V5Pfe8KnkErS8mCJ9"
                 target="_blank"
-                className="bg-transparent border-[1px] border-[white] px-[2rem] py-[1rem]
+                className="bg-[#294d55] border-[1px] border-[white] px-[2rem] py-[1rem]
                 rounded-md text-[white] font-normal text-[1.8rem] transition-all duration-[0.2s] ease-linear hover:opacity-[0.8] uppercase cursor-pointer"
               >
                 Get Directions
