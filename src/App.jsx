@@ -12,6 +12,7 @@ import ProgramTourism from "./Pages/Program/ProgramTourism/ProgramTourism";
 import ProgramMassMedia from "./Pages/Program/ProgramMassMedia/ProgramMassMedia";
 import ProgramPersonality from "./Pages/Program/ProgramPersonality/ProgramPersonality";
 import ProgramProfessional from "./Pages/Program/ProgramProfessional/ProgramProfessional";
+import Gallery from "./Pages/Gallery/Gallery";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/fee" element={<Fee />}></Route>
           <Route path="/feelink" element={<FeeLink />}></Route>
+          <Route path="/gallery" element={<Gallery />}></Route>
           <Route path="/program/diploma" element={<ProgramDiploma />}></Route>
           <Route path="/program/tourism" element={<ProgramTourism />}></Route>
           <Route

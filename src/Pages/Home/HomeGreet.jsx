@@ -1,5 +1,8 @@
+/* eslint-disable no-unused-vars */
 // import React from 'react'
-import img1 from "/Images/HomePromoted/13.png";
+import img1 from "/Images/rajender.jpg";
+import img2 from "/Images/shaivee.jpg";
+import img3 from "/Images/anshul.jpg";
 
 const HomeGreet = () => {
   return (
@@ -33,7 +36,11 @@ const HomeGreet = () => {
           </div>
           <div className="flex flex-col items-center justify-center text-center mt-[2rem] gap-[1rem]">
             <div className="flex items-center justify-center w-[100%]">
-              <img src={img1} alt="img" className="w-[20%] rounded-full" />
+              <img
+                src={img1}
+                alt="img"
+                className="w-[120px] h-[120px] rounded-full object-cover aspect-square"
+              />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] capitalize">
               Rajender Kumar Verma
@@ -71,7 +78,11 @@ const HomeGreet = () => {
           </div>
           <div className="flex flex-col items-center justify-center text-center mt-[2rem] gap-[1rem]">
             <div className="flex items-center justify-center w-[100%]">
-              <img src={img1} alt="img" className="w-[20%] rounded-full" />
+              <img
+                src={img2}
+                alt="img"
+                className="w-[120px] h-[120px] rounded-full object-cover aspect-square"
+              />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] capitalize">
               Shaivee Verma
@@ -110,7 +121,11 @@ const HomeGreet = () => {
           </div>
           <div className="flex flex-col items-center justify-center text-center mt-[2rem] gap-[1rem]">
             <div className="flex items-center justify-center w-[100%]">
-              <img src={img1} alt="img" className="w-[20%] rounded-full" />
+              <img
+                src={img3}
+                alt="img"
+                className="w-[120px] h-[120px] rounded-full object-cover aspect-square"
+              />
             </div>
             <p className="text-[1.8rem] font-normal text-[white] capitalize">
               Anshul Kumar Verma

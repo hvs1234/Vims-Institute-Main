@@ -17,7 +17,7 @@ const HomeFuture = () => {
             </h2>
             <p className="text-[1.8rem] font-normal text-justify">
               Welcome to Verma Institute of Management Studies, where passion
-              meets opportunity in the vibrant world of hospitality!
+              meets opportunity in the vibrant world of hospitality.
             </p>
             <p className="text-[1.8rem] font-normal text-justify">
               At VIMS, we take pride in offering meticulously designed

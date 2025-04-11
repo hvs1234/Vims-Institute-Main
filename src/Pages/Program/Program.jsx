@@ -12,6 +12,7 @@ import ProgramAdmission from "./ProgramAdmission";
 import ProgramForm from "./ProgramForm";
 import ProgramCourseMain from "./ProgramCourseMain";
 import { Helmet } from "react-helmet-async";
+import HomeProgram from "../Home/HomeProgram";
 
 const Program = () => {
   const { programbannerdata } = Handlers();
@@ -28,7 +29,7 @@ const Program = () => {
       <Header />
       <TopBanner bannerdata={programbannerdata} />
       <ProgramCourse />
-      <ProgramCourseMain />
+      <HomeProgram />
       <ProgramFacilities />
       <ProgramCareer />
       {/* <ProgramTips /> */}

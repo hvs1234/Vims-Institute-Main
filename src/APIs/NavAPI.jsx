@@ -61,6 +61,7 @@ export const NavLinkData = [
   {
     id: 8,
     name: "Gallery",
+    to: "/gallery",
   },
   {
     id: 9,

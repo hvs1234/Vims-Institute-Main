@@ -141,3 +141,19 @@ export const ProgramProfessionalData = [
     to: `/`,
   },
 ];
+
+export const GalleryBannerData = [
+  {
+    id: 1,
+    topdesc: ``,
+    img: `bg-[url('/Images/Gallery/10.png')]`,
+    titleclass: ``,
+    title: `Our Gallery`,
+    title2: ``,
+    para: `View the VIMS gallery showcasing campus events, student activities, and academic achievements. Experience life at VIMS through our photos. Explore vibrant student life, inspiring faculty moments, and unforgettable VIMS memories.`,
+    btnClass: `bg-transparent px-[2rem] py-[1rem] rounded-md text-[white] font-normal border-[1px] border-[white] text-[1.8rem] transition-all 
+    duration-[0.2s] ease-linear hover:bg-[white] hover:text-[black] uppercase hidden`,
+    btnText: `Read More`,
+    to: `/`,
+  },
+];
